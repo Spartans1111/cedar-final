@@ -8,8 +8,8 @@ import { GoArrowRight } from "react-icons/go";
 const Package = () => {
   return (
     <div className='package'>
-        <h2 className='header2'>PACKAGE OFFERS <span>FOR US</span></h2>
-        <p className='pricesubhead'>Elevate your spaces with Vedar Designs & Interior Fitouts L.L.C. Experience the fusion</p>
+        <h2 className='header2'>Exclusive Package Deals <span>For You</span></h2>
+        <p className='pricesubhead'>Upgrade your living space with our thoughtfully curated interior packages. Designed for elegance, comfort, and affordability, these offers bring luxury within reach.</p>
       <div className="hr"></div>
         <div className="package-price">
             <div className="pricelist">
@@ -25,7 +25,7 @@ const Package = () => {
                     <li>Dining Table with 4 Chair</li>
                     <li>Modular Kitchen with Basic Accessories</li>
                 </ul>
-                <button className="pricebutton btn1">NEED SERVICES<span>{<GoArrowRight/>}</span></button>
+                <button className="pricebutton btn1">Get 2 BHK Package<span>{<GoArrowRight/>}</span></button>
             </div>
 
             {/*pricelist2--*/}
@@ -42,7 +42,7 @@ const Package = () => {
                     <li>6 Seater Dining Table</li>
                     <li>Modular Kitchen with Basic Accessories</li>
                 </ul>
-                <button className="pricebutton btn1">NEED SERVICES<span>{<GoArrowRight/>}</span></button>
+                <button className="pricebutton btn1">Get 3 BHK Package<span>{<GoArrowRight/>}</span></button>
             </div>
         </div>
 

@@ -5,13 +5,11 @@ import aw2 from '../../images/awandwin/aw2.png';
 
 const Awardandwinning = () => {
   return (
-    <div className='awardandwinnig'> <h2 className='header2'><span>Beautiful house interior</span></h2>
-    <h6>with cedar interiors</h6>
-    <p>Elevate your spaces with Cedar Interiors L.L.C. Experience the fusion of
-your aspirations with our expertise, creating interiors  that speak volumes.
-Your space, our dedication a partnership that transforms imagination reality.</p>
-<p>Elevate your spaces with Cedar Interiors L.L.C. Experience the fusion of
-your aspirations with our expertise, creating interiors  that speak.</p>
+    <div className='awardandwinnig'> <h2 className='header2'><span>Beautiful Homes Begin</span></h2>
+    <h6>with Cedar Interiors</h6>
+    <p>Cedar Interiors, headquartered in Palakkad, Kerala, specializes in crafting premium, customized furniture and interior solutions for homes, offices, and institutions.</p>
+<p>We cater to both commercial and residential projects, offering turn-key solutions for hotels, offices, and schools. With cutting-edge infrastructure and a commitment to sustainability, our designs are energy-efficient and eco-friendly.</p>
+<p>Choose Cedar Interiors to transform your spaces with innovative designs, unmatched craftsmanship, and exceptional quality.</p>
 
 <div className="awardwiningblurb">
     <div className="blurb">
@@ -20,7 +18,7 @@ your aspirations with our expertise, creating interiors  that speak.</p>
         </div>
         <div className="aw-blurbcontent">
             <h5>1000+</h5>
-            <p>Projects Delivered</p>
+            <p>Dream Spaces Designed</p>
         </div>
     </div>
     <div className="blurb">
@@ -28,9 +26,9 @@ your aspirations with our expertise, creating interiors  that speak.</p>
           <img src={aw1} alt="aw" />
         </div>
         <div className="aw-blurbcontent">
-            <h5>Award Winning
+            <h5>Trusted by 500+
           </h5>
-            <p>Projects Delivered</p>
+            <p>Happy Clients</p>
         </div>
     </div>
 </div>

@@ -32,9 +32,9 @@ function HeroSlider() {
         <div className="slider">
               <img src={banner2} alt="" />
               <div className="herocontent">
-                <p>W7 INTERIOR DESIGNS</p>
-                <h4>Transform Your Space with cedar’s
-                Expert Design Consulting </h4>
+                <p>Luxury Home Interiors
+                </p>
+                <h4>Cedar Interiors creates stunning and functional spaces that match your lifestyle. Let’s bring your vision to life.</h4>
              </div>
           </div>         
         </SwiperSlide>
@@ -42,7 +42,7 @@ function HeroSlider() {
         <div className="slider">
               <img src={banner3} alt="" />
               <div className="herocontent">
-                <p>W7 INTERIOR DESIGNS</p>
+                <p>Modular Kitchens</p>
                 <h4>Transform Your Space with cedar’s
                 Expert Design Consulting </h4>
              </div>
@@ -52,7 +52,7 @@ function HeroSlider() {
         <div className="slider">
               <img src={banner1} alt="" />
               <div className="herocontent">
-                <p>W7 INTERIOR DESIGNS</p>
+                <p>Custom Interior Unites</p>
                 <h4>Transform Your Space with cedar’s
                 Expert Design Consulting </h4>
              </div>
@@ -62,7 +62,17 @@ function HeroSlider() {
         <div className="slider">
               <img src={banner4} alt="" />
               <div className="herocontent">
-                <p>W7 INTERIOR DESIGNS</p>
+                <p>Office Interiors</p>
+                <h4>Transform Your Space with cedar’s
+                Expert Design Consulting </h4>
+             </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="slider">
+              <img src={banner4} alt="" />
+              <div className="herocontent">
+                <p>Exclusive Packages</p>
                 <h4>Transform Your Space with cedar’s
                 Expert Design Consulting </h4>
              </div>

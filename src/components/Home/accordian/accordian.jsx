@@ -6,20 +6,20 @@ const AccordianPage = () => {
   // Define your accordion items here
   const items = [
     {
-      title: 'Can your company handle commercial projects?',
-      content: 'This is the content for Section 1. It can include text, images, or other elements.',
+      title: 'Can your company handle both residential and commercial projects?',
+      content: 'Yes, we specialize in designing both residential and commercial spaces with tailored solutions that meet your specific needs.',
     },
     {
-      title: 'Are your electrical engineers experienced?',
-      content: 'Here is the content for Section 2. You can add more details or information specific to this section.',
+      title: 'What’s the typical timeline for completing a project?',
+      content: 'The timeline varies based on the project’s scope, but most of our projects are completed within 45 days, ensuring quality without delays.',
     },
     {
-      title: 'What types of industries electrical solutions for?',
-      content: 'Content for Section 3 goes here. Feel free to include any additional information or media.',
+      title: 'Do you offer design customization services?',
+      content: 'Absolutely! Our team works closely with you to create designs that align with your vision and requirements.',
     },
     {
-          title:'Do you offer a transportation?',
-          content:'Content for Section 3 goes here. Feel free to include any additional information or media.'
+          title:'Are your interior solutions budget-friendly?',
+          content:'Yes, we offer flexible packages and solutions to fit various budgets without compromising on quality or style.'
     },
   ];
 
@@ -27,14 +27,12 @@ const AccordianPage = () => {
     <div className='accordian'>
       <div className="accordian-col">
         <p className='qa'>QUESTIONS & ANSWERS</p>
-        <h2 className='header2'>Come let’s clear your doubts & queries</h2>
+        <h2 className='header2'>Let us help you find clarity</h2>
         <p className='qa-exp'>
-          Experience the ultimate getaway at our luxurious design,
-          where every detail is designed to offer you unparalleled
-          comfort and relaxation. Nestled in a stunning location,
-          <br /><br />
+        We’re here to answer your queries and guide you through every step of your journey with us. Explore our frequently asked questions below.
+          {/* <br /><br />
           Experience the ultimate getaway at our luxurious resort,
-          where every detail is designed to offer.
+          where every detail is designed to offer. */}
         </p>
       </div>
       

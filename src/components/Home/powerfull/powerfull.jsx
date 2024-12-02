@@ -22,17 +22,16 @@ const powerfull = () => {
       <div id="Testimonial">
         <div class="row-testimonial">
           <div class="col-testimonial">
-            <h2 className="header2">Powerful Insights</h2>
+            <h2 className="header2">Trusted by Our Clients</h2>
             <p class="get-insight">
-              Get an insight into the valuable and impactful thoughts direct
-              from our clients.
+            Discover how we’ve transformed spaces and lives with our designs. Hear directly from our 89+ satisfied clients worldwide, sharing their experiences and stories.
             </p>
-            <h6>REVIEWS & TESTIMONIALS -</h6>
+            <h6>Real feedback, Real impact -</h6>
           </div>
           <div class="col-testimonial">
             <div class="satisfied-cutomer">
-              <span>89+</span>
-              <p>Satisfied Clients worldwide</p>
+              <span>100+</span>
+              <p>Satisfied Clients Across South India</p>
             </div>
           </div>
         </div>
@@ -75,11 +74,7 @@ const powerfull = () => {
                       </div>
                       <p>
                         {" "}
-                        Working with [Agency Name] was an absolute absolute
-                        pleasure! From concept to completion, they transformed
-                        my home into a stunning and functional space. Their
-                        attention to detail and to bring my vision to life
-                        exceeded all expectations.
+                        “Cedar Interiors completely redefined my living spaces. Their attention to detail and ability to blend style with comfort turned my house into a dream home. Highly recommended for anyone seeking perfection!”
                       </p>
                       <div class="quatation">
                         <img src={qut} alt="" />
@@ -96,8 +91,8 @@ const powerfull = () => {
                       <img src={author} alt="" />
                     </div>
                     <div class="author-name">
-                      <p>Sudeep krishna P</p>
-                      <p>Thirssur, Kerala</p>
+                      <p>Ravi Krishnan</p>
+                      <p>Cochin</p>
                     </div>
                   </div>
                 </div>
@@ -119,11 +114,7 @@ const powerfull = () => {
                       </div>
                       <p>
                         {" "}
-                        Working with [Agency Name] was an absolute absolute
-                        pleasure! From concept to completion, they transformed
-                        my home into a stunning and functional space. Their
-                        attention to detail and to bring my vision to life
-                        exceeded all expectations.
+                        “From start to finish, Cedar Interiors delivered excellence. They beautifully designed every corner of my home, making it functional yet elegant. Their team was professional, creative, and always attentive to my needs.”
                       </p>
                       <div class="quatation">
                         <img src={qut} alt="" />
@@ -140,8 +131,8 @@ const powerfull = () => {
                       <img src={author1} alt="" />
                     </div>
                     <div class="author-name">
-                      <p>Mahadevan</p>
-                      <p>Thada, Andhara</p>
+                      <p>Annamma Joseph</p>
+                      <p>Palakkad</p>
                     </div>
                   </div>
                 </div>
@@ -163,11 +154,7 @@ const powerfull = () => {
                       </div>
                       <p>
                         {" "}
-                        Working with [Agency Name] was an absolute absolute
-                        pleasure! From concept to completion, they transformed
-                        my home into a stunning and functional space. Their
-                        attention to detail and to bring my vision to life
-                        exceeded all expectations.
+                        “The modular kitchen designed by Cedar Interiors is a game-changer! It combines elegance and functionality perfectly. Cooking feels more enjoyable now, thanks to their creative designs and high-quality workmanship. Truly impressive service!”
                       </p>
                       <div class="quatation">
                         <img src={qut} alt="" />
@@ -184,8 +171,8 @@ const powerfull = () => {
                       <img src={author2} alt="" />
                     </div>
                     <div class="author-name">
-                      <p>Sudeep krishna P</p>
-                      <p>Thirssur, Kerala</p>
+                      <p>Farhan Mohammed</p>
+                      <p>Coimbatore</p>
                     </div>
                   </div>
                 </div>
@@ -207,11 +194,7 @@ const powerfull = () => {
                       </div>
                       <p>
                         {" "}
-                        Working with [Agency Name] was an absolute absolute
-                        pleasure! From concept to completion, they transformed
-                        my home into a stunning and functional space. Their
-                        attention to detail and to bring my vision to life
-                        exceeded all expectations.
+                        “Cedar Interiors transformed our office into a vibrant, professional space. Their designs boosted productivity while adding a touch of sophistication. Their ability to meet deadlines without compromising quality was outstanding!”
                       </p>
                       <div class="quatation">
                         <img src={qut} alt="" />
@@ -228,8 +211,8 @@ const powerfull = () => {
                       <img src={author1} alt="" />
                     </div>
                     <div class="author-name">
-                      <p>Sudeep krishna P</p>
-                      <p>Thirssur, Kerala</p>
+                      <p>Jayanth Nair</p>
+                      <p>Trichur</p>
                     </div>
                   </div>
                 </div>

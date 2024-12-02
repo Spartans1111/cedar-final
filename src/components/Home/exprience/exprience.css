@@ -19,6 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* flex-wrap: wrap; */
 }
 .exprence-content {
   padding-left: 50px;
@@ -60,11 +61,15 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 .counter-text {
   color: #554f49;
-  text-wrap: nowrap;
+  text-wrap: wrap;
   font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   font-style: normal;
@@ -72,6 +77,16 @@
   line-height: normal;
   letter-spacing: 0.0175rem;
 }
+
+.counter-span{
+  color: #cc8835;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .exprence-content p {
   color: #cc8835;
   font-family: "Encode Sans Expanded", sans-serif;
@@ -86,7 +101,7 @@
 .exprence-content h3 {
   color: #302b27;
   font-family: Montserrat;
-  font-size: 1.9375rem;
+  font-size: 1.2rem !important;
   font-style: normal;
   font-weight: 300;
   line-height: normal;

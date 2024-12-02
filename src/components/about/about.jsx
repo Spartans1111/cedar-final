@@ -27,26 +27,27 @@ function about() {
           <Awardandwinning />
         </div>
       </div>
-      
+
       <div className="aboutherosecond">
         <div className="hrline"> </div>
         <div className="missandvis">
           <div className="vission">
             <h5 className="smallhead">OUR VISION</h5>
             <p>
-              We envision leading the interior designing with innovation and
-              excellence. Rooted in trust and transparency, we aim to deliver
-              tailored solutions that surpass expectations, empowering
-              industries interior solutions.
+              To lead the way in redefining interior spaces by crafting
+              personalized, comfortable, and aesthetically appealing designs. We
+              strive to blend innovation, quality, and functionality, delivering
+              spaces that resonate with our clients’ lifestyles and aspirations.
             </p>
           </div>
           <div className="mission">
             <h5 className="smallhead">OUR MISSION</h5>
             <p>
-              We envision leading the interior designing with innovation and
-              excellence. Rooted in trust and transparency, we aim to deliver
-              tailored solutions that surpass expectations, empowering
-              industries interior solutions.
+              To enhance the comfort and lifestyle of our clients by providing
+              exceptional interior solutions. We are dedicated to offering
+              superior-quality products and services that go beyond
+              expectations, creating lasting impressions through precision,
+              trust, and excellence.
             </p>
           </div>
         </div>
@@ -56,28 +57,27 @@ function about() {
       <div className="aboutchoose">
         <div className="aboutchoosrow1">
           <div className="aboutchooserow1col col1">
-            <h2 className="header2">Why choose Cedar Interiors Designers?</h2>
+            <h2 className="header2">Cedar Assurance</h2>
             <p>
-              Choose us for interior designing solutions backed by a commitment
-              to safety, reliable performance, and customer-centricity. With
-              expertise, agility, and a focus on innovation, we ensure your
-              electrical infrastructure exceeds expectations while fostering
-              trust and integrity.
+            Cedar Assurance is our promise to make your interior journey seamless and stress-free. We go beyond delivering beautiful spaces by ensuring every detail reflects quality, precision, and care. With our unwavering commitment to innovation and client satisfaction, Cedar Interiors stands as your trusted partner in creating timeless spaces that inspire.
             </p>
           </div>
           <div className="aboutchooserow1col col2">
             <div className="yofexp">
-              <p>28+</p>
-              <span>Years of Experience</span>
+              <p>45</p>
+              <span>Days</span>
+              <span>Delivery</span>
             </div>
 
             <div className="yofexp">
-              <p>2670+</p>
-              <span>Sq.ft Developed</span>
+            <p>4Lakh</p>
+              <span>SqFt</span>
+              <span>Developed</span>
             </div>
             <div className="yofexp">
-              <p>652+</p>
-              <span>Projects delivered</span>
+            <p>10</p>
+              <span>Years</span>
+              <span>Warranty</span>
             </div>
           </div>
         </div>
@@ -86,40 +86,36 @@ function about() {
           <div className="about1-col">
             <div className="blurb">
               <img src={abimg1} alt="" />
-              <h4>Transparency</h4>
+              <h4>45 Days Delivery</h4>
               <p>
-                We handle every facet of your are from design and procurement is
-                installation and commissioning,
+              Enjoy fast and reliable interior solutions for your new home with our guaranteed 45-day delivery. Your dream home, delivered on time.
               </p>
             </div>
           </div>
           <div className="about1-col">
             <div className="blurb">
               <img src={abimg2} alt="" />
-              <h4>Dedication</h4>
+              <h4>Design Experts</h4>
               <p>
-                We handle every facet of your are from design and procurement is
-                installation and commissioning,
+              Collaborate with our skilled designers to explore premium ideas and co-create interiors that match your unique style and vision.
               </p>
             </div>
           </div>
           <div className="about1-col">
             <div className="blurb">
               <img src={abimg3} alt="" />
-              <h4>Progressive</h4>
+              <h4>Aftercare Service</h4>
               <p>
-                We handle every facet of your are from design and procurement is
-                installation and commissioning,
+              Experience uninterrupted support with our dedicated customer care team, ensuring your interiors remain flawless even after project completion.
               </p>
             </div>
           </div>
           <div className="about1-col">
             <div className="blurb">
               <img src={abimg4} alt="" />
-              <h4>Trustability</h4>
+              <h4>10-Year Warranty</h4>
               <p>
-                We handle every facet of your are from design and procurement is
-                installation and commissioning,
+              Benefit from high-quality materials and craftsmanship backed by a 10-year warranty for a defect-free and lasting experience.
               </p>
             </div>
           </div>
@@ -148,24 +144,23 @@ function about() {
           </div>
         </div>
         <div className="bestsellcol">
-          <p className="bestp">Best Selling Finishes </p>
+          <p className="bestp">State-of-the-Art Infrastructure </p>
           <h2 className="header2">
-            <span>We use materials only from our in </span>house manufacturing
+            <span>Empowering Excellence with </span>Advanced Facilities
           </h2>
-          <h6>with cedar interiors</h6>
+          <h6>and Skilled Expertise</h6>
           <p>
-            Elevate your spaces with Cedar Interiors L.L.C. Experience the
-            fusion of your aspirations with our expertise, creating interiors
-            that speak volumes. Your space, our dedication a partnership that
-            transforms imagination reality.
+          Cedar Interiors, headquartered in Palakkad, Kerala, began its journey with timber trading, interior design, and on-site consultations. Over the years, we have established expertise in manufacturing and designing premium yet cost-effective customized furniture for homes, offices, and institutions, including soft furnishings and commercial furniture solutions.
           </p>
-          <div className="primumimg">
+          <p>Our advanced manufacturing facility includes a state-of-the-art sawmill, wood processing, and treatment plants, exclusively dedicated to production. Equipped with the latest machinery, our workshop ensures seamless production planning and execution.</p>
+          <p>Our team comprises skilled engineers, designers, architects, and space planners who collaborate to deliver exceptional craftsmanship. Additionally, a dedicated unit for office administration and after-sales services at our retail showrooms ensures the highest level of customer satisfaction.</p>
+          {/* <div className="primumimg">
             <img src={primum} alt="primum" />
             <img src={aboutarrow} alt="aboutarrow" className="aboutimgarrow" />
-          </div>
+          </div> */}
         </div>
       </div>
-      
+
       <Testimonial />
     </div>
   );

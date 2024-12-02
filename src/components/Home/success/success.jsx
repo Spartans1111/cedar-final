@@ -9,8 +9,8 @@ const success = () => {
   return (
     <div className="successstory">
       <div className="success">
-        <p className="build-success">BUILD YOUR DREAM WITH</p>
-        <h2 className="header2">OUR SUCCESS ROUTE</h2>
+        <p className="build-success">The Path to Your Perfect Space</p>
+        <h2 className="header2">Our Success Route</h2>
         <p className="sucees-elevate">
           Elevate your spaces with Vedar Designs & Interior Fitouts L.L.C.
           Experience the fusion of your aspirations with our expertise, creating
@@ -42,33 +42,34 @@ const success = () => {
         <div className="success-card2">
           <div className="success-col">
             <div className="blurb">
-              <h4>CONCEPT</h4>
+              <h4>Inspiration
+              </h4>
               <p>
-                In publishing and graphic design, Lorem ipsum is a placeholder
+              We start by drawing inspiration from your vision and lifestyle, ensuring every detail reflects your unique taste.
               </p>
             </div>
           </div>
           <div className="success-col">
             <div className="blurb">
-              <h4>IDEALOGY</h4>
+              <h4>Planning</h4>
               <p>
-                In publishing and graphic design, Lorem ipsum is a placeholder
+              Strategizing and mapping out the perfect balance of form and function to bring your ideas to life.
               </p>
             </div>
           </div>
           <div className="success-col">
             <div className="blurb">
-              <h4>DESIGN</h4>
+              <h4>Craftsmanship</h4>
               <p>
-                In publishing and graphic design, Lorem ipsum is a placeholder
+              Bringing designs to reality through innovative techniques and skilled artistry for flawless interiors.
               </p>
             </div>
           </div>
           <div className="success-col">
             <div className="blurb">
-              <h4>EXECUTION</h4>
+              <h4>Delivery</h4>
               <p>
-                In publishing and graphic design, Lorem ipsum is a placeholder
+              Completing your dream space with precision, on-time execution, and uncompromised quality.
               </p>
             </div>
           </div>

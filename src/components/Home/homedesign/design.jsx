@@ -12,12 +12,10 @@ const design = () => {
     <div className="design">
       <div className="designheader">
         <h2 className="header2">
-          OUR SOLUTION <span>FOR YOUR PROBLEMS</span>
+          Designed <span> for Your Unique Lifestyle</span>
         </h2>
         <p>
-          Elevate your spaces with Cedar Designs Interior Fitouts L.L.C.
-          Experience the fusion of your aspirations with our expertise, creating
-          interiors that speak volumes. Your space, our dedication.
+        Your space deserves interiors that not only look good but also feel perfect for your everyday life. Cedar Interiors specializes in crafting bespoke designs that solve your interior needs while adding unmatched elegance.
         </p>
       </div>
       <div className="design-grid">
@@ -25,7 +23,7 @@ const design = () => {
           <img src={img3} alt="design" />
           <div className="design-btn">
             <button className="btn2">
-              Living room design<span>{<GoArrowRight />}</span>
+              Living Room Interiors<span>{<GoArrowRight />}</span>
             </button>
           </div>
         </div>
@@ -34,7 +32,7 @@ const design = () => {
           <img src={img4} alt="design" />
           <div className="design-btn">
             <button className="btn2">
-              Kitchan designs<span>{<GoArrowRight />}</span>
+              Modular Kitchenss<span>{<GoArrowRight />}</span>
             </button>
           </div>{" "}
         </div>
@@ -44,13 +42,13 @@ const design = () => {
             <img src={img5} alt="design" />
             <div className="design-btn">
               <button className="btn2">
-                Bedroom designs<span>{<GoArrowRight />}</span>
+              Bedroom Interiors<span>{<GoArrowRight />}</span>
               </button>
             </div>
           </div>
           <div className="designmore">
             <h3>10+</h3>
-            <p>Interior Designs</p>
+            <p>Custom Interior Solutions</p>
             <span className="designmorearrow">{<GoArrowRight />}</span>
           </div>
         </div>
@@ -59,7 +57,7 @@ const design = () => {
           <img src={img2} alt="design" />
           <div className="design-btn">
             <button className="btn2">
-              Office designs<span>{<GoArrowRight />}</span>
+            Office Interiors<span>{<GoArrowRight />}</span>
             </button>
           </div>{" "}
         </div>
@@ -68,7 +66,7 @@ const design = () => {
           <img src={img1} alt="design" />
           <div className="design-btn">
             <button className="btn2">
-              Dining designs<span>{<GoArrowRight />}</span>
+            Dining Room Interiors<span>{<GoArrowRight />}</span>
             </button>
           </div>
         </div>

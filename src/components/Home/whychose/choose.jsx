@@ -24,33 +24,31 @@ const Choose = () => {
         <div className="choose-inner">
         <div className="chooseheader">
             <div className="choose-headers">
-                <h3>CEDAR FOR YOU</h3>
-                <h2 className="header2"><span>Why to choose</span> Cedar Designs</h2>
+                <h3>DESIGNED WITH YOU IN MIND</h3>
+                <h2 className="header2"><span>Why Choose</span> Cedar Interiors?</h2>
             </div>
-            <p>Elevate your spaces with Cedar Designs Interior Fitouts L.L.C. 
-Experience the fusion of  your aspirations with our expertise,
-creating interiors that speak volumes. Your spac.</p>
+            <p>Cedar Interiors stands apart for its commitment to quality, innovation, and customer satisfaction. With decades of experience, a reputation for reliability, and designs that redefine elegance, we bring your dream spaces to life. Choose Cedar Interiors for unmatched craftsmanship and a seamless design experience tailored just for you.</p>
         </div>
       
 <div className="chose-content">
     <div className="choose-content-col">
         <div className="blurb">
             <img src={c1} alt="choose" />
-            <p>Transparency</p>
+            <p>Reliability</p>
         </div>
         <div className="blurb">
             <img src={c2} alt="choose" />
-            <p>Progressive</p>
+            <p>Dedication </p>
         </div>
     </div>
     <div className="choose-content-col">
     <div className="blurb">
             <img src={c3} alt="choose" />
-            <p>Dedication</p>
+            <p>Integrity</p>
         </div>
         <div className="blurb">
             <img src={c4} alt="choose" />
-            <p>Trustability</p>
+            <p>Innovation</p>
         </div>
     </div>
     <div className="choose-content-col">
