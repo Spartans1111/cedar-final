@@ -17,19 +17,28 @@
     font-size: 13px;
 }
 .homeservicecard{
-    margin-top: 3rem;
+    /* margin-top: 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; */
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    margin: 3rem 6rem;
     }
 
     .homesercardcol{
         background-color: #fff;
         text-align: left;
         overflow: hidden;
-        width: 24%;
+        /* width: 24%; */
+        width: 100%;
         padding: 2rem 1rem;
         border-radius: 15px;
         height: 430px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
     .homesercardcol .smallhead{
         text-transform: uppercase;
@@ -41,7 +50,7 @@
     }
     .homesercardcol .btn2{
         margin-bottom: 50px;
-        justify-content: flex-start;
+        /* justify-content: flex-start; */
         padding: 5px 13px 7px 18px;
     }
     .homesercardcol img{

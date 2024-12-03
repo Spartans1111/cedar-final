@@ -14,34 +14,34 @@ const homeservice = () => {
   <div className="homeservicecard">
     <div className="homesercardcol">
         <h5 className="smallhead">Living room designs</h5>
+        <img src={hsimg1} alt="homedesign" />
         <p>Elegant comfort and style for enduring
         relaxation in your home.</p>
         <button className='btn2'>Know more <span><BiRightArrowAlt/></span></button>
-        <img src={hsimg1} alt="homedesign" />
     </div>
     {/*card2*/}
     <div className="homesercardcol">
         <h5 className="smallhead">Kitchen designs</h5>
+        <img src={hsimg2} alt="homedesign" />
         <p>Elegant comfort and style for enduring
         relaxation in your home.</p>
         <button className='btn2'>Know more <span><BiRightArrowAlt/></span></button>
-        <img src={hsimg2} alt="homedesign" />
     </div>
        {/*card32*/}
        <div className="homesercardcol">
         <h5 className="smallhead">Dinning designs</h5>
+        <img src={hsimg2} alt="homedesign" />
         <p>Elegant comfort and style for enduring
         relaxation in your home.</p>
         <button className='btn2'>Know more <span><BiRightArrowAlt/></span></button>
-        <img src={hsimg2} alt="homedesign" />
     </div>
       {/*card32*/}
       <div className="homesercardcol">
         <h5 className="smallhead">Bed room designs</h5>
+        <img src={hsimg3} alt="homedesign" />
         <p>Elegant comfort and style for enduring
         relaxation in your home.</p>
         <button className='btn2'>Know more <span><BiRightArrowAlt/></span></button>
-        <img src={hsimg3} alt="homedesign" />
     </div>
 
   </div>
@@ -51,4 +51,4 @@ const homeservice = () => {
   )
 }
 
-export default homeservice
+export default homeservice;

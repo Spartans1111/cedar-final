@@ -12,6 +12,7 @@ import bestimg from "../../images/aboutpage/bestseller.png";
 import primum from "../../images/aboutpage/primiumquality.png";
 import aboutarrow from "../../images/aboutpage/aboutarow.png";
 import { BiRightArrowAlt } from "react-icons/bi";
+import Chooseus from '../Home/whychose/choose.jsx';
 
 function about() {
   return (
@@ -54,7 +55,7 @@ function about() {
       </div>
       {/*end*/}
 
-      <div className="aboutchoose">
+      {/* <div className="aboutchoose">
         <div className="aboutchoosrow1">
           <div className="aboutchooserow1col col1">
             <h2 className="header2">Cedar Assurance</h2>
@@ -81,7 +82,7 @@ function about() {
             </div>
           </div>
         </div>
-        {/*end*/}
+       
         <div className="about-card">
           <div className="about1-col">
             <div className="blurb">
@@ -129,8 +130,8 @@ function about() {
             </span>
           </button>
         </div>
-      </div>
-
+      </div> */}
+<Chooseus/>
       {/*best selling*/}
 
       <div className="bestselling">

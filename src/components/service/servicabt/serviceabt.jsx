@@ -32,9 +32,6 @@ const serviceabt = () => {
 your aspirations with our expertise, creating interiors  that speak volumes.
 Your space, our dedication a partnership that transforms imagination reality.</p>
                     </div>
-                    <div className="row1col col2">
-                        <button className='btn2'>EXOLPRE OUR STORY <span><BiRightArrowAlt/></span> </button>
-                    </div>
                 </div>
                 <img src={serviabt1} alt="" />
             </div>

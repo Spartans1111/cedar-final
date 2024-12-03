@@ -9,21 +9,10 @@ import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 const Header = () => {
   const [open, setOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [subMenuOpen, setSubMenuOpen] = useState({
-    homeInteriors: false,
-    customInteriors: false,
-  });
 
   const handleClick = () => setOpen(!open);
   const closeMenu = () => setOpen(false);
   const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
-
-  const toggleSubMenu = (submenuKey) => {
-    setSubMenuOpen((prevState) => ({
-      ...prevState,
-      [submenuKey]: !prevState[submenuKey],
-    }));
-  };
 
   const location = useLocation();
 
@@ -54,61 +43,40 @@ const Header = () => {
         </li>
         <li className={`dropdown ${isActive("/service") ? "active" : ""}`}>
           <Link to="/service" onClick={toggleDropdown}>
-            BESPOKE INTERIORS <FaChevronDown />
+            OUR SERVICES <FaChevronDown />
           </Link>
           {/* Dropdown toggle for mobile */}
           <div className={`dropdown-content ${dropdownOpen ? "show" : ""}`}>
             <div
               className="has-submenu"
-              onClick={() => toggleSubMenu("homeInteriors")}
             >
-              Home Interiors
-              <FaChevronRight
-                style={{ marginLeft: "10px" }}
-                className="right-arrow"
-              />
-              <div
-                className={`submenu ${subMenuOpen.homeInteriors ? "show" : ""}`}
-              >
-                <p>Living Room Interiors</p>
-                <p>Bedroom Interiors</p>
-                <p>Modern Bathrooms</p>
-              </div>
+             <Link to="/homeinterior"> HOME INTERIORS </Link>
+
             </div>
-            <div>Modular Kitchens</div>
-            <div>Office Interiors</div>
-            <div
-              className="has-submenu"
-              onClick={() => toggleSubMenu("customInteriors")}
-            >
-              Custom Interior Solutions
-              <FaChevronRight
-                style={{ marginLeft: "10px" }}
-                className="right-arrow"
-              />
-              <div
-                className={`submenu ${subMenuOpen.customInteriors ? "show" : ""}`}
-              >
-                <p>Living Room Interiors</p>
-                <p>Bedroom Interiors</p>
-                <p>Modern Bathrooms</p>
-              </div>
+            <div><Link to='/livingservice'>LIVING ROOM INTERIORS</Link></div>
+            <div><Link to='/modularservice'>MODULAR KITCHEN</Link></div>
+            <div className="has-submenu">
+              <Link to="/bedroom">BED ROOM INTERIORS</Link>
             </div>
+            <div><Link to="/diningroom">DINING ROOM INTERIORS</Link></div>
+            <div><Link to='/kidsroom'>KIDS ROOM INTERIORS</Link></div>
+            <div><Link to='/officeservice'>OFFICE ROOM INTERIORS</Link></div>
+            <div><Link to='/customservice'>CUSTOM INTERIOR UNITS</Link></div>
           </div>
         </li>
         <li className={isActive("/locations") ? "active" : ""}>
           <Link to="/locations" onClick={closeMenu}>
-            OUR STUDIOS
+            OUR LOCATIONS
           </Link>
         </li>
         <li className={isActive("/packages") ? "active" : ""}>
           <Link to="/packages" onClick={closeMenu}>
-            PACKAGES
+            OUR PACKAGES
           </Link>
         </li>
         <li className={isActive("/gallery") ? "active" : ""}>
           <Link to="/gallery" onClick={closeMenu}>
-            SHOWCASE
+            GALLERY
           </Link>
         </li>
         <li className={isActive("/contact") ? "active" : ""}>

@@ -11,7 +11,14 @@ import Packages from '../src/components/packages/packages';
 import Contact from '../src/components/contact/contact';
 import Gallery from '../src/components/gallery/gallery';
 import Scrolltop from './components/scrolltop/scrolltop';
-
+import Officeservice from './components/service/officeservice';
+import Customservice from './components/service/customservice';
+import Livingservice from './components/service/livingservice';
+import Homeinterior from './components/service/homeinterior';
+import Modularservice from './components/service/modularservice';
+import Kidsroom from './components/service/kidsroom';
+import Bedroom from './components/service/bedroom';
+import Diningroom from './components/service/diningroom';
 
 function App() {
   
@@ -28,7 +35,14 @@ function App() {
         <Route path="/Packages" element={<Packages />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Gallery" element={<Gallery />} />
-        
+        <Route path="/homeinterior" element={<Homeinterior />} />
+        <Route path="/livingservice" element={<Livingservice />} />
+        <Route path="/officeservice" element={<Officeservice />} />
+        <Route path="/customservice" element={<Customservice />} />
+        <Route path="/modularservice" element={<Modularservice />} />
+        <Route path="/diningroom" element={<Diningroom />} />
+        <Route path="/bedroom" element={<Bedroom />} />
+        <Route path="/kidsroom" element={<Kidsroom />} />
      </Routes>
      <Footer/>
   </BrowserRouter>

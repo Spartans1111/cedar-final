@@ -140,11 +140,17 @@
     .sercol2{
         padding: 1rem 4rem;
     }
-    .homeservicecard{
+    /* .homeservicecard{
         flex-wrap: wrap;
-    }
+    } */
+
+    .homeservicecard{
+        gap: 40px;
+        margin: 3rem 1rem;
+        }
+
     .homeservicecard .homesercardcol{
-        width: 48%;
+        width: 100%;
         margin-bottom: 25px;
         padding: 2rem 2rem;
         box-shadow: rgba(0, 0, 0, 0.18) 0px 3px 8px;
@@ -204,6 +210,10 @@
     .sercol1 {
          padding-left: 0;
     }
+    .homeservicecard{
+        gap: 40px !important;
+        margin: 3rem 1rem !important;
+    }
 }
 @media screen and (max-width:400px) {
     .serviceinterior .service-slide{
@@ -219,6 +229,11 @@
     .homeservice{
         padding: 2rem 1rem!important;
     }
+
+    .homeservicecard{
+        grid-template-columns: 1fr !important;
+    }
+
     .homeservicecard .homesercardcol{
         width: 100%;
         padding: 1rem 1rem;
