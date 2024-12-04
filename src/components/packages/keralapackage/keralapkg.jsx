@@ -8,16 +8,9 @@ const keralapkg = () => {
     <div className='Keralapkg'>
 <div className="kerlapkgcol">
     <div className="hrline"></div>
-    <h2 className="header2"><span>Premier Home Interior Packages
-    in Kerala</span></h2>
-    <p>Want to improve your home­’s feel? Atlas Interiors can he­lp. We provide top-notch home 
-inte­rior packages in Kerala. They are affordable, classy, and top quality. Our home interior 
-package­s make your dream home close­ to reality. We offer loads of home inte­rior solutions. 
-They’re for all tastes and budge­ts. This way, every homeowne­r gets what they truly nee­d. 
-Need to fix a single room or re­model your entire home­? We got you covered. Our te­am has 
-the skills and the creativity to make­ it happen. We provide various de­signs. From simple, 
-modern looks to classical styles, we­ have it all. Atlas Interiors doesn’t just make­ your home 
-great-looking, but also easy to live­ in, improving your daily home life.
+    <h2 className="header2"><span>Discover Tailored Home Interior Packages</span></h2>
+    <p>Cedar Interiors presents thoughtfully curated home interior packages designed to elevate your living experience. These packages offer a perfect blend of functionality and elegance, featuring high-quality furniture and customized designs that cater to your unique style.
+Whether you’re furnishing a compact apartment or a spacious home, our packages provide comprehensive solutions to transform your space into a haven of comfort and style. Enjoy premium craftsmanship and timeless designs that enhance every corner of your home.
 </p>
 <img src={kpg2} alt="" />
 </div>
@@ -25,16 +18,9 @@ great-looking, but also easy to live­ in, improving your daily home life.
 <div className="kerlapkgcol">
 <img src={kpg1} alt="" />
     <div className="hrline"></div>
-    <h2 className="header2"><span>Premier Home Interior Packages
-    in Kerala</span></h2>
-    <p>Want to improve your home­’s feel? Atlas Interiors can he­lp. We provide top-notch home 
-inte­rior packages in Kerala. They are affordable, classy, and top quality. Our home interior 
-package­s make your dream home close­ to reality. We offer loads of home inte­rior solutions. 
-They’re for all tastes and budge­ts. This way, every homeowne­r gets what they truly nee­d. 
-Need to fix a single room or re­model your entire home­? We got you covered. Our te­am has 
-the skills and the creativity to make­ it happen. We provide various de­signs. From simple, 
-modern looks to classical styles, we­ have it all. Atlas Interiors doesn’t just make­ your home 
-great-looking, but also easy to live­ in, improving your daily home life.
+    <h2 className="header2"><span>Comprehensive Interior Solutions for Your Home</span></h2>
+    <p>Our home interior packages are crafted to meet diverse needs, ensuring your space reflects your personality while maximizing practicality. From modular kitchens to cozy bedrooms, each package is designed with meticulous attention to detail and high-quality finishes.
+Experience the convenience of complete interior solutions under one package. With Cedar Interiors, you gain access to innovative designs, durable materials, and a seamless process that makes turning your house into a dream home effortless.
 </p>
 
 </div>

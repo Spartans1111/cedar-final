@@ -9,7 +9,7 @@ const detailpackage = () => {
   return (
     <div className='detailpackage'>
         <h2 className="header2">DETAILED PACKAGE VIEW</h2>
-        <p>Elevate your spaces with Vedar Designs & Interior Fitouts L.L.C. Experience the fusion</p>
+        <p>Explore comprehensive home interior packages crafted with precision and passion. </p>
         <div className="hr"></div>
         
         <div className="detailofpackage">
@@ -23,49 +23,39 @@ const detailpackage = () => {
            <div className="package-blurbs">
             <div className="package-blurbscol">
                 <div className="packageblurb">
-                    <h5 className="smallhead">FOYER</h5>
-                    <p>Shoe rack - 100*75 cm</p>
+                    <h5 className="smallhead">2 Wardrobe</h5>
+                    <p>Spacious, soft-close wardrobes designed for maximum storage.</p>
                 </div>
                 {/*blurb*/}
                 <div className="packageblurb">
-                    <h5 className="smallhead">LIVING ROOM</h5>
-                    <p>Premium LCD display unit – 180 * 120 cm</p>
+                    <h5 className="smallhead">2 Dressing Table</h5>
+                    <p>Includes ample drawer space for organizing personal essentials.</p>
                 </div>
                  {/*blurb*/}
                  <div className="packageblurb">
-                    <h5 className="smallhead">DINING ROOM</h5>
-                    <p>Medley black finish dining table 6 Seater 
-                    (L 210*W 110 cm) Briano dining chair (3 Nos). <br></br>3 Seater dining bench – (1 No)</p>
+                    <h5 className="smallhead">2 Cots/Bed Frames</h5>
+                    <p>Sturdy bed frames made with premium wood for durability.</p>
                 </div>
                  {/*blurb*/}
                  <div className="packageblurb">
-                    <h5 className="smallhead">GUEST BEDROOM</h5>
-                    <p>Soft close 3 door hinged wardrobe with grey 
-Queen size bed without bottom storage
-Bed side table (1 No) – 50*40*35 cm </p>
+                    <h5 className="smallhead"> 6 Seater Sofa Set</h5>
+                    <p>Upholstered in premium fabric for enhanced comfort and durability.</p>
                 </div>
             </div>
             <div className="package-blurbscol">
                 <div className="packageblurb">
-                    <h5 className="smallhead">KIDS ROOM</h5>
-                    <p>Soft close 3 door hinged wardrobe with white
-                    Queen size bed without bottom storage </p>
+                    <h5 className="smallhead">TV Unit with Paneling</h5>
+                    <p>Sleek, modern design with concealed cable management.</p>
                 </div>
                 {/*blurb*/}
                 <div className="packageblurb">
-                    <h5 className="smallhead">MASTER BEDROOM</h5>
-                    <p>Soft close 3 door hinged wardrobe with grey 
-                    Queen size bed without bottom Storage – </p>
+                    <h5 className="smallhead"> Dining Table with 4 Chair</h5>
+                    <p>Made with a high-quality finish for an elegant dining experience.</p>
                 </div>
                  {/*blurb*/}
                  <div className="packageblurb">
-                    <h5 className="smallhead">MODULAR KITCHEN</h5>
-                    <p>Bottom cabinet – 304*85 cm<br/>
-Top cabinet – 304*60 cm<br/>
-Hettich (German Made – 15 years warranty) <br/>
-Hood and Hob – Faber Accessories<br/>
-Cutlery tray, Plain basket, Plate rack,
-Bottle pull out</p>
+                    <h5 className="smallhead">Modular Kitchen with Basic Accessories</h5>
+                    <p>Efficient layout designed for optimal functionality and space utilization.</p>
                 </div>
                
             </div>
@@ -87,49 +77,39 @@ Bottle pull out</p>
            <div className="package-blurbs">
             <div className="package-blurbscol">
                 <div className="packageblurb">
-                    <h5 className="smallhead">FOYER</h5>
-                    <p>Shoe rack - 100*75 cm</p>
+                    <h5 className="smallhead">3 Wardrobe</h5>
+                    <p>Spacious, triple-door wardrobes designed for enhanced storage capacity.</p>
                 </div>
                 {/*blurb*/}
                 <div className="packageblurb">
-                    <h5 className="smallhead">LIVING ROOM</h5>
-                    <p>Premium LCD display unit – 180 * 120 cm</p>
+                    <h5 className="smallhead"> 3 Dressing Table</h5>
+                    <p>Comes with extended storage drawers for better organization of essentials.</p>
                 </div>
                  {/*blurb*/}
                  <div className="packageblurb">
-                    <h5 className="smallhead">DINING ROOM</h5>
-                    <p>Medley black finish dining table 6 Seater 
-                    (L 210*W 110 cm) Briano dining chair (3 Nos). <br></br>3 Seater dining bench – (1 No)</p>
+                    <h5 className="smallhead">3 Cots/Bed Frames</h5>
+                    <p>Expertly crafted bed frames with reinforced support for longevity.</p>
                 </div>
                  {/*blurb*/}
                  <div className="packageblurb">
-                    <h5 className="smallhead">GUEST BEDROOM</h5>
-                    <p>Soft close 3 door hinged wardrobe with grey 
-Queen size bed without bottom storage
-Bed side table (1 No) – 50*40*35 cm </p>
+                    <h5 className="smallhead"> 6 Seater Sofa Set</h5>
+                    <p>Luxurious seating with high-density foam for unmatched comfort.</p>
                 </div>
             </div>
             <div className="package-blurbscol">
                 <div className="packageblurb">
-                    <h5 className="smallhead">KIDS ROOM</h5>
-                    <p>Soft close 3 door hinged wardrobe with white
-                    Queen size bed without bottom storage </p>
+                    <h5 className="smallhead">TV Unit with Paneling</h5>
+                    <p>Functional design with smart storage options for gadgets and accessories.</p>
                 </div>
                 {/*blurb*/}
                 <div className="packageblurb">
-                    <h5 className="smallhead">MASTER BEDROOM</h5>
-                    <p>Soft close 3 door hinged wardrobe with grey 
-                    Queen size bed without bottom Storage – </p>
+                    <h5 className="smallhead">6 Seater Dining Table</h5>
+                    <p>Crafted with durable materials to support family meals and gatherings.</p>
                 </div>
                  {/*blurb*/}
                  <div className="packageblurb">
-                    <h5 className="smallhead">MODULAR KITCHEN</h5>
-                    <p>Bottom cabinet – 304*85 cm<br/>
-Top cabinet – 304*60 cm<br/>
-Hettich (German Made – 15 years warranty) <br/>
-Hood and Hob – Faber Accessories<br/>
-Cutlery tray, Plain basket, Plate rack,
-Bottle pull out</p>
+                    <h5 className="smallhead">Modular Kitchen with Basic Accessories</h5>
+                    <p>Tailored layouts with premium pull-out trays, bottle racks, and cutlery organizers.</p>
                 </div>
                
             </div>

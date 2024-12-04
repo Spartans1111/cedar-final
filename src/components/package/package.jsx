@@ -8,8 +8,8 @@ import { GoArrowRight } from "react-icons/go";
 const Package = () => {
   return (
     <div className='package'>
-        <h2 className='header2'>Exclusive Package Deals <span>For You</span></h2>
-        <p className='pricesubhead'>Upgrade your living space with our thoughtfully curated interior packages. Designed for elegance, comfort, and affordability, these offers bring luxury within reach.</p>
+        <h2 className='header2'>Exclusive Home <span>Interior Packages</span></h2>
+        <p className='pricesubhead'>Discover tailor-made home interior packages designed to suit your style, space, and budget. </p>
       <div className="hr"></div>
         <div className="package-price">
             <div className="pricelist">

@@ -10,6 +10,10 @@
     font-size: 15px;
     text-transform: uppercase;
 }
+
+.smallhead span{
+    color: #d9a264;
+}
 .servicehero1{
   
     align-items: flex-end;

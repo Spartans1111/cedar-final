@@ -12,21 +12,20 @@ const gallery = () => {
        <div className="galleryhero">
         <h1>GAllery</h1>
        </div>
-       <div className="topgallry">
+       {/* <div className="topgallry">
         <div className="contact-hr"></div>
         <h4>CEDAR INTERIORS</h4>
         <h2 className="header2"><span>Timely Project Completion Ensuring Satisfaction</span></h2>
         <p>Indulge in the ultimate relaxation and adventure at our exclusive resorts. Book now and
         experience unparalleled comfort, stunning views, and world-class amenities.</p>
-       </div>
+       </div> */}
 
  {/*gallery-row-1*/}      
        <div className="gallery-row">
         <div className="galley-row-content">
             <div className="galllry-col">
-                <h2 className="header2">Home Interiors Design - <span>Portfolio</span></h2>
-                <p>Elevate your spaces with Vedar Designs & Interior Fitouts
-                L.L.C. Experience the fusion</p>
+                <h2 className="header2">Home Interior Design <span>Showcase </span></h2>
+                <p>Discover the artistry of Cedar Interiors through our curated gallery. </p>
                 <div className="gal-hr"></div>
             </div>
             <div className="galllry-col">
@@ -43,9 +42,8 @@ const gallery = () => {
 <div className="gallery-row">
         <div className="galley-row-content">
             <div className="galllry-col">
-                <h2 className="header2">Home Interiors Design - <span>Portfolio</span></h2>
-                <p>Elevate your spaces with Vedar Designs & Interior Fitouts
-                L.L.C. Experience the fusion</p>
+            <h2 className="header2">Living Room Interior Design <span>Showcase </span></h2>
+            <p>Discover the artistry of Cedar Interiors through our curated gallery. </p>
                 <div className="gal-hr"></div>
             </div>
             <div className="galllry-col">
@@ -61,9 +59,8 @@ const gallery = () => {
        <div className="gallery-row">
         <div className="galley-row-content">
             <div className="galllry-col">
-                <h2 className="header2">Home Interiors Design - <span>Portfolio</span></h2>
-                <p>Elevate your spaces with Vedar Designs & Interior Fitouts
-                L.L.C. Experience the fusion</p>
+            <h2 className="header2">Modular Kitchen Interior Design <span>Showcase </span></h2>
+            <p>Discover the artistry of Cedar Interiors through our curated gallery. </p>
                 <div className="gal-hr"></div>
             </div>
             <div className="galllry-col">
@@ -80,9 +77,8 @@ const gallery = () => {
      <div className="gallery-row">
         <div className="galley-row-content">
             <div className="galllry-col">
-                <h2 className="header2">Home Interiors Design - <span>Portfolio</span></h2>
-                <p>Elevate your spaces with Vedar Designs & Interior Fitouts
-                L.L.C. Experience the fusion</p>
+            <h2 className="header2">Bedroom Interior Design <span>Showcase </span></h2>
+            <p>Discover the artistry of Cedar Interiors through our curated gallery. </p>
                 <div className="gal-hr"></div>
             </div>
             <div className="galllry-col">
@@ -95,6 +91,81 @@ const gallery = () => {
 <Gallery2/>
        </div>    
 
+
+     {/*gallery-row-5*/}      
+     <div className="gallery-row">
+        <div className="galley-row-content">
+            <div className="galllry-col">
+            <h2 className="header2">Dining Room Interior Design <span>Showcase </span></h2>
+            <p>Discover the artistry of Cedar Interiors through our curated gallery. </p>
+                <div className="gal-hr"></div>
+            </div>
+            <div className="galllry-col">
+                <div className="galleryserv">
+                <img src={galimg} alt="" />
+                <p>need services</p>
+                </div>
+                          </div>
+        </div>
+<Gallery2/>
+       </div>    
+
+
+     {/*gallery-row-6*/}      
+     <div className="gallery-row">
+        <div className="galley-row-content">
+            <div className="galllry-col">
+            <h2 className="header2">Kids Room Interior Design <span>Showcase </span></h2>
+            <p>Discover the artistry of Cedar Interiors through our curated gallery. </p>
+                <div className="gal-hr"></div>
+            </div>
+            <div className="galllry-col">
+                <div className="galleryserv">
+                <img src={galimg} alt="" />
+                <p>need services</p>
+                </div>
+                          </div>
+        </div>
+<Gallery2/>
+       </div>    
+
+
+     {/*gallery-row-7*/}      
+     <div className="gallery-row">
+        <div className="galley-row-content">
+            <div className="galllry-col">
+            <h2 className="header2">Office Interior Design <span>Showcase </span></h2>
+            <p>Discover the artistry of Cedar Interiors through our curated gallery. </p>
+                <div className="gal-hr"></div>
+            </div>
+            <div className="galllry-col">
+                <div className="galleryserv">
+                <img src={galimg} alt="" />
+                <p>need services</p>
+                </div>
+                          </div>
+        </div>
+<Gallery2/>
+       </div>    
+
+     {/*gallery-row-8*/}      
+     <div className="gallery-row">
+        <div className="galley-row-content">
+            <div className="galllry-col">
+            <h2 className="header2">Custom Interior Design <span>Showcase </span></h2>
+            <p>Discover the artistry of Cedar Interiors through our curated gallery. </p>
+                <div className="gal-hr"></div>
+            </div>
+            <div className="galllry-col">
+                <div className="galleryserv">
+                <img src={galimg} alt="" />
+                <p>need services</p>
+                </div>
+                          </div>
+        </div>
+<Gallery2/>
+       </div>    
+ 
 
 
     </div>

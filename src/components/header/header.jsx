@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./header.css";
 import logo from "../../images/cedar-logo.png";
@@ -17,6 +17,20 @@ const Header = () => {
   const location = useLocation();
 
   const isActive = (path) => location.pathname === path;
+
+  // Close the dropdown when clicking outside the dropdown menu
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (e.target.closest(".dropdown") === null) {
+        setDropdownOpen(false); // Close the dropdown if clicking outside
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+    return () => {
+      document.removeEventListener("click", handleClickOutside); // Cleanup on unmount
+    };
+  }, []);
 
   return (
     <nav className="menu-bar">
@@ -42,32 +56,68 @@ const Header = () => {
           </Link>
         </li>
         <li className={`dropdown ${isActive("/service") ? "active" : ""}`}>
-          <Link to="/service" onClick={toggleDropdown}>
+          <Link  onClick={toggleDropdown}>
             OUR SERVICES <FaChevronDown />
           </Link>
           {/* Dropdown toggle for mobile */}
           <div className={`dropdown-content ${dropdownOpen ? "show" : ""}`}>
-            <div
-              className="has-submenu"
-            >
-             <Link to="/homeinterior"> HOME INTERIORS </Link>
-
+            <div className={isActive("/homeinterior") ? "active" : ""}>
+              <Link to="/homeinterior" onClick={closeMenu}>
+                {" "}
+                HOME INTERIORS{" "}
+              </Link>
             </div>
-            <div><Link to='/livingservice'>LIVING ROOM INTERIORS</Link></div>
-            <div><Link to='/modularservice'>MODULAR KITCHEN</Link></div>
-            <div className="has-submenu">
-              <Link to="/bedroom">BED ROOM INTERIORS</Link>
+            <div className={isActive("/livingservice") ? "active" : ""}>
+              <Link to="/livingservice" onClick={closeMenu}>
+                LIVING ROOM INTERIORS
+              </Link>
             </div>
-            <div><Link to="/diningroom">DINING ROOM INTERIORS</Link></div>
-            <div><Link to='/kidsroom'>KIDS ROOM INTERIORS</Link></div>
-            <div><Link to='/officeservice'>OFFICE ROOM INTERIORS</Link></div>
-            <div><Link to='/customservice'>CUSTOM INTERIOR UNITS</Link></div>
+            <div className={isActive("/modularservice") ? "active" : ""}>
+              <Link to="/modularservice" onClick={closeMenu}>MODULAR KITCHEN</Link>
+            </div>
+            <div className={isActive("/bedroom") ? "active" : ""}>
+              <Link to="/bedroom" onClick={closeMenu}>BED ROOM INTERIORS</Link>
+            </div>
+            <div className={isActive("/diningroom") ? "active" : ""}>
+              <Link to="/diningroom" onClick={closeMenu}>DINING ROOM INTERIORS</Link>
+            </div>
+            <div className={isActive("/kidsroom") ? "active" : ""}>
+              <Link to="/kidsroom" onClick={closeMenu}>KIDS ROOM INTERIORS</Link>
+            </div>
+            <div className={isActive("/officeservice") ? "active" : ""}>
+              <Link to="/officeservice" onClick={closeMenu}>
+                OFFICE ROOM INTERIORS
+              </Link>
+            </div>
+            <div className={isActive("/customservice") ? "active" : ""}>
+              <Link to="/customservice" onClick={closeMenu}>
+                CUSTOM INTERIOR UNITS
+              </Link>
+            </div>
           </div>
         </li>
-        <li className={isActive("/locations") ? "active" : ""}>
-          <Link to="/locations" onClick={closeMenu}>
-            OUR LOCATIONS
+        <li className={`dropdown ${isActive("/location") ? "active" : ""}`}>
+          <Link onClick={toggleDropdown}>
+            OUR LOCATIONS <FaChevronDown />
           </Link>
+          {/* Dropdown toggle for mobile */}
+          <div className={`dropdown-content ${dropdownOpen ? "show" : ""}`}>
+            <div className={isActive("/location") ? "active" : ""}>
+              <Link to="/location" onClick={closeMenu}>
+                {" "}
+                COCHIN{" "}
+              </Link>
+            </div>
+            <div className={isActive("/palakkad") ? "active" : ""}>
+              <Link to='/palakkad' onClick={closeMenu}>PALAKKAD</Link>
+            </div>
+            <div className={isActive("/coimbatore") ? "active" : ""}>
+              <Link to='/coimbatore' onClick={closeMenu}>COIMBATORE</Link>
+            </div>
+            <div className={isActive("/tiruvalla") ? "active" : ""}>
+              <Link to='/tiruvalla' onClick={closeMenu}>TIRUVALLA</Link>
+            </div>
+          </div>
         </li>
         <li className={isActive("/packages") ? "active" : ""}>
           <Link to="/packages" onClick={closeMenu}>

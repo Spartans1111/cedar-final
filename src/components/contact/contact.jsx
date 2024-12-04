@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 import contactimg from "../../images/contact/cantactimg.png";
-import Quoteform from "../formdesign/quoteform";
+import Contactform from "../formdesign/contactform";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdPhone } from "react-icons/md";
 import { TiMessage } from "react-icons/ti";
@@ -25,7 +25,7 @@ const contact = () => {
                   <div className="con-blurb-content">
                     <h4>ADDRESS</h4>
                     <p>
-                      7th Avenue, Naibi street pallakad, Kerala, INDIA - 682028
+                      Cedar Interiors, Robinson Road, Emmar Plaza, Palakkad, 678001
                     </p>
                   </div>
                 </div>
@@ -35,7 +35,7 @@ const contact = () => {
                     <i>{<TiMessage />}</i>
                     <div className="con-blurb-content">
                       <h4>MAIL ID</h4>
-                      <p>office@caderdesigns.in</p>
+                      <p>contact@cedarinteriors.in</p>
                     </div>
                   </div>
 
@@ -43,11 +43,11 @@ const contact = () => {
                     <i>{<MdPhone />}</i>
                     <div className="con-blurb-content">
                       <h4>PHONE NUMBER</h4>
-                      <p>+91 940 098 9363</p>
+                      <p>+91 7907330407</p>
                     </div>
                   </div>
                   <div className="blurb">
-                    <p>+91 940 098 9363</p>
+                    <p>+91 7012576803</p>
                   </div>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const contact = () => {
           </div>
         </div>
         <div className="contact-form">
-          <Quoteform />
+          <Contactform />
         </div>
       </div>
       
@@ -70,14 +70,13 @@ const contact = () => {
         <div className="contact-branch-inner">
           {/*col1*/}
           <div className="branch-col">
-            <h5>Palakkad</h5>
+            <h5>Coimbatore</h5>
             <div className="blurb">
               <i>{<IoLocationOutline />}</i>
               <div className="con-blurb-content">
                 <h4>ADDRESS</h4>
                 <p>
-                  7th Avenue, Naibi street <br /> pallakad, Kerala, INDIA -
-                  682028
+                552, Palathurai Road, Madhukarai, Coimbatore, Tamil Nadu, 641105
                 </p>
               </div>
             </div>
@@ -116,8 +115,7 @@ const contact = () => {
               <div className="con-blurb-content">
                 <h4>ADDRESS</h4>
                 <p>
-                  7th Avenue, Naibi street <br /> pallakad, Kerala, INDIA -
-                  682028
+                Cedar Interiors, Robinson Road, Emmar Plaza, Palakkad, 678001
                 </p>
               </div>
             </div>
@@ -150,14 +148,13 @@ const contact = () => {
           </div>
           {/*col1*/}
           <div className="branch-col">
-            <h5>Palakkad</h5>
+            <h5>Cochin</h5>
             <div className="blurb">
               <i>{<IoLocationOutline />}</i>
               <div className="con-blurb-content">
                 <h4>ADDRESS</h4>
                 <p>
-                  7th Avenue, Naibi street <br /> pallakad, Kerala, INDIA -
-                  682028
+                Cedar Interiors, Robinson Road, Emmar Plaza, Palakkad, 678001
                 </p>
               </div>
             </div>

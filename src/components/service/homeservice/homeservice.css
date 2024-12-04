@@ -35,7 +35,7 @@
         width: 100%;
         padding: 2rem 1rem;
         border-radius: 15px;
-        height: 430px;
+        height: 550px;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -46,12 +46,13 @@
     }
     .homesercardcol p{
         margin-bottom: 20px;
-
+        flex: 1;
     }
     .homesercardcol .btn2{
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
         /* justify-content: flex-start; */
         padding: 5px 13px 7px 18px;
+        margin-top: auto;
     }
     .homesercardcol img{
         height: 190px;

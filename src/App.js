@@ -19,6 +19,10 @@ import Modularservice from './components/service/modularservice';
 import Kidsroom from './components/service/kidsroom';
 import Bedroom from './components/service/bedroom';
 import Diningroom from './components/service/diningroom';
+import Cochin from './components/location/Cochin';
+import Palakkad from './components/location/Palakkad';
+import Tiruvalla from './components/location/Tiruvalla';
+import Coimbatore from './components/location/Coimbatore';
 
 function App() {
   
@@ -43,6 +47,10 @@ function App() {
         <Route path="/diningroom" element={<Diningroom />} />
         <Route path="/bedroom" element={<Bedroom />} />
         <Route path="/kidsroom" element={<Kidsroom />} />
+        <Route path='/location' element={<Cochin />} />
+        <Route path='/palakkad' element={<Palakkad />} />
+        <Route path='/tiruvalla' element={<Tiruvalla />} />
+        <Route path='/coimbatore' element={<Coimbatore />} />
      </Routes>
      <Footer/>
   </BrowserRouter>

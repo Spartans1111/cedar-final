@@ -57,17 +57,17 @@ const Footer = () => {
           <h6>CONTACT</h6>
           <div className="blurb">
             <i>{<IoLocationOutline />}</i>
-            <p>7th Avenue, Naibi street <br />
-              Pallakad, Kerala, INDIA - 682028
+            <p>Cedar Interiors, Robinson Road, Emmar Plaza, <br />
+              Palakkad, 678001
             </p>
           </div>
           <div className="blurb">
             <i>{<MdPhone />}</i>
-            <p>+91 940 098 9363</p>
+            <p>+91 7907330407</p>
           </div>
           <div className="blurb">
             <i>{<TiMessage />}</i>
-            <p>office@caderdesigns.in</p>
+            <p>contact@cedarinteriors.in</p>
           </div>
         </div>
         {/* col4 */}

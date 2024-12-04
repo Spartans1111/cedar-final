@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import aboutimg1 from '../../images/aboutpage/aboutimg3.png';
 import aboutimg2 from '../../images/aboutpage/aboutimg.png';
 import aboutimg3 from '../../images/aboutpage/aboutimg4.png';
-import "./service.css";
 import Quatationform from "../formdesign/quoteform";
 import aw1 from '../../images/awandwin/aw1.png';
 import aw2 from '../../images/awandwin/aw2.png';
@@ -35,7 +34,7 @@ import "swiper/css/navigation";
 import Testimonial from "../Home/powerfull/powerfull";
 import Popup from '../pup/popup';
 
-export default function Officeservice() {
+export default function Coimbatore() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [aboutimg1, aboutimg2, aboutimg3];
   
@@ -54,29 +53,26 @@ export default function Officeservice() {
 
   const items = [
     {
-      title: 'What office interior services does Cedar Interiors provide in Kerala?',
-      content: 'We specialize in custom office interiors, including workstations, reception desks, conference tables, and file storage units, catering to businesses in Cochin, Palakkad, and other areas.',
+      title: 'What interior design services do you offer in Coimbatore?',
+      content: 'We provide a range of services including home interiors, modular kitchens, office interiors, and custom-designed furniture solutions tailored for Coimbatore homes and businesses.',
     },
     {
-      title: 'Can Cedar Interiors design a modern and functional workspace for my office?',
-      content: 'Yes! We focus on ergonomic, modern designs tailored to optimize your workspace for productivity and collaboration.',
+      title: 'Can Cedar Interiors customize interior designs for homes in Coimbatore?',
+      content: 'Yes, we specialize in creating bespoke designs, ensuring every detail is personalized to suit your style and functional requirements.',
     },
     {
-      title: 'How long does it take to complete an office interior project?',
-      content: 'Most office interior projects are completed within 30–45 days, depending on the scope and complexity.',
+      title: 'How long does it take to complete an interior design project in Coimbatore?',
+      content: 'Most of our projects are completed within 45 days, depending on the scale and complexity. We ensure timely delivery without compromising on quality.',
     },
     {
-          title:'Do you offer office interior services in Tamil Nadu?',
-          content:'Yes, we provide our services in Tamil Nadu, including Coimbatore, ensuring businesses have inspiring workspaces.'
+          title:'Why choose Cedar Interiors for interior design in Coimbatore?',
+          content:'Our commitment to innovative designs, premium materials, and exceptional craftsmanship makes us the preferred choice for interior design in Coimbatore.'
     },
     {
-      title:'Can I customize my office interiors with Cedar Interiors?',
-      content:'Absolutely! Our office interior solutions are fully customizable to align with your business needs and aesthetic preferences.'
+      title:'Do you provide after-sales support for projects in Coimbatore?',
+      content:'Yes, our dedicated after-sales support ensures your interiors remain functional and aesthetically pleasing for years to come.'
   },
-  {
-    title:'What materials do you use for office interiors?',
-    content:'We use premium and durable materials to ensure functionality and longevity, matching your office’s style and requirements.'
-},
+
   ];
 
   const [showPopup, setShowPopup] = useState(false); // State to control popup visibility
@@ -91,15 +87,16 @@ export default function Officeservice() {
 
   return (
     <>
-      <div className="service-main">
+<div className="service-main">
       <div className="servicehero"></div>
       <div className="servicehero1">
         <div className="servicehero1col">
           <div className="discount">
-          <h2 className="header2">
-              <span>Office Interior Design Services</span>
-            </h2>
-            <h5 className="smallhead">Starting from <span>2 Lakhs</span></h5>
+            <h1 className="header2">
+              <span>Interior Design Services in 
+              </span> Coimbatore
+            </h1>
+            <h5 className="smallhead">Starting from 2 Lakhs </h5>
           </div>
         </div>
         <div className="servicehero1col">
@@ -125,10 +122,13 @@ export default function Officeservice() {
           </div>
         </div>
         <div className="serviceinteriorcol sercol2">
-        <div className='awardandwinnig'> <h2 className='header2'><span> Redefine Your Workspace</span></h2>
-    <h6>with Tailored Office Interiors</h6>
-    <p>Cedar Interiors specializes in creating inspiring office spaces that boost productivity and represent your brand. From ergonomic designs to modern aesthetics, we craft offices that balance functionality with style. Transform your workspace into a hub of efficiency and innovation.</p>
-<p>Elevate your workspace with Cedar Interiors’ modern office designs. We combine cutting-edge layouts, high-quality materials, and practical solutions to create interiors that enhance collaboration and inspire creativity. Achieve an office space tailored to your business needs and aesthetics.</p>
+        <div className='awardandwinnig'> <h2 className='header2'><span>Transform Your Coimbatore Home with Elegant Interior Design</span></h2>
+    <p>Experience the perfect blend of functionality and elegance with Cedar Interiors in Coimbatore. We specialize in designing personalized interiors that reflect your unique style, offering solutions tailored to the vibrant lifestyle of Coimbatore.
+</p>
+<h2 className='header2'><span>Premium Interior Designs for Coimbatore Homes
+</span></h2>
+    <p>Cedar Interiors brings expert craftsmanship and innovative design solutions to Coimbatore. From luxury home interiors to office spaces, we deliver bespoke designs that prioritize quality, functionality, and timeless appeal.
+</p>
 
 <div className="awardwiningblurb">
     <div className="blurb">
@@ -137,7 +137,7 @@ export default function Officeservice() {
         </div>
         <div className="aw-blurbcontent">
             <h5>Premium Quality</h5>
-            <p>Finest materials ensured</p>
+            <p>Finest materials ensured.</p>
         </div>
     </div>
     <div className="blurb">
@@ -157,43 +157,48 @@ export default function Officeservice() {
       <div className="hrline-bg">
         <div className="hrline"></div>{" "}
       </div>
-      <div className='homeservice'><h2 className="header2">Best Office <span>Interior Designers</span></h2>
-    <p>Enhance your workspace with Cedar Interiors’ office interior solutions. From ergonomic workstations to stylish reception desks, conference tables, and file storage units, we design spaces that optimize functionality and reflect professionalism.</p>
-    <div className="hr"></div>
-    {/*servicecard*/}
-  <div className="homeservicecard">
-    <div className="homesercardcol">
-        <h5 className="smallhead">Workstations</h5>
-        <img src={hsimg1} alt="homedesign" />
-        <p>Create a dynamic and efficient workspace with customized workstations. Designed for comfort and collaboration, our ergonomic solutions ensure your employees stay productive and focused.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
-    </div>
-    {/*card2*/}
-    <div className="homesercardcol">
-        <h5 className="smallhead">Reception Desks</h5>
-        <img src={hsimg2} alt="homedesign" />
-        <p>Make a lasting first impression with elegant reception desks. Our designs combine functionality with aesthetics, creating a welcoming and professional ambiance for your visitors.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
-    </div>
-       {/*card32*/}
-       <div className="homesercardcol">
-        <h5 className="smallhead">Conference Tables</h5>
-        <img src={hsimg2} alt="homedesign" />
-        <p>Host meetings in style with our custom conference tables. Combining sleek designs with practicality, our tables are crafted to encourage collaboration and seamless communication.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
-    </div>
-      {/*card32*/}
-      <div className="homesercardcol">
-        <h5 className="smallhead">File Storage Units</h5>
-        <img src={hsimg3} alt="homedesign" />
-        <p>Stay organized with our modern file storage units. Designed for space efficiency and durability, these units blend seamlessly into your office decor while keeping your files easily accessible.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
-    </div>
+      <div className='homeservice'><h2 className="header2"><span>Expert Interior Designers in 
+      </span>Coimbatore </h2>
+<p>Upgrade your living and workspaces with Cedar Interiors. From home interiors to modular kitchens, office interiors, and custom designs, we bring comprehensive solutions to Coimbatore.</p>
+<div className="hr"></div>
+{/*servicecard*/}
+<div className="homeservicecard">
+<div className="homesercardcol">
+    <h5 className="smallhead">Home Interiors</h5>
+    <img src={hsimg1} alt="homedesign" />
+    <p>Revamp your home with interiors that blend aesthetics and comfort. From cozy living rooms and stylish bedrooms to functional dining spaces, our personalized designs elevate your lifestyle.
+    </p>
+    <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+</div>
+{/*card2*/}
+<div className="homesercardcol">
+    <h5 className="smallhead">Modular Kitchens</h5>
+    <img src={hsimg2} alt="homedesign" />
+    <p>Enhance your cooking space with state-of-the-art modular kitchens. Choose from layouts like island kitchens, straight kitchens, or U-shaped designs, crafted to add elegance and functionality to your home.
+    </p>
+    <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+</div>
+   {/*card32*/}
+   <div className="homesercardcol">
+    <h5 className="smallhead">Office Interiors</h5>
+    <img src={hsimg2} alt="homedesign" />
+    <p>Create productive workspaces with our office interior solutions. From ergonomic workstations and stylish conference tables to reception desks, we design professional spaces tailored for Coimbatore businesses.
+    </p>
+    <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+</div>
+  {/*card32*/}
+  <div className="homesercardcol">
+    <h5 className="smallhead">Custom Interior Designs</h5>
+    <img src={hsimg3} alt="homedesign" />
+    <p>Add a touch of personalization with custom interior units. Be it modern shoe cabinets, luxurious bathrooms, or home bars, our designs are crafted to fit your Coimbatore home perfectly.
+    </p>
+    <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+</div>
 
-  </div>
+</div>
 
 
-    </div>
+</div>
     <div className='serviceabt'>
         <div className="serviceabtinner">
             <div className="serviceabitinnercol1">
@@ -202,21 +207,22 @@ export default function Officeservice() {
                     <p>Projects Successfully Completed</p>
                 </div>
                 <div className="servblurb">
-                    <h3>10-Year</h3>
+                    <h3>10-Year </h3>
                     <p>Trusted Warranty Coverage</p>
                 </div>
                 <div className="servblurb1">
-                    <h3 className='smallhead'>Turning Ideas Into Reality</h3>
-                    <p>With over two decades of expertise, Cedar Interiors transforms office spaces into functional, innovative, and inspiring environments that fuel productivity and reflect your brand identity.</p>
-                    <button className='btn2'>Get a Quote<span><BiRightArrowAlt/></span></button>
+                    <h3 className='smallhead'>Redefining Spaces in Coimbatore</h3>
+                    <p>At Cedar Interiors, we redefine spaces with designs that are both functional and visually striking. With years of expertise, we create interiors that bring your vision to life.
+                    </p>
+                    <button className='btn2'>Get a Quote <span><BiRightArrowAlt/></span></button>
                 </div>
             </div>
             <div className="serviceabitinnercol">
-                <h2 className="header2">Innovative Spaces for Productivity</h2>
-                {/* <h6 className="smallhead">with cedar interiors</h6> */}
-                <div className="row1">
+                <h2 className="header2">Your Coimbatore Dream Space, Realized</h2>
+               <div className="row1">
                     <div className="row1col">
-                        <p>Experience office interiors designed for efficiency and collaboration. Cedar Interiors blends innovation and functionality to craft workspaces tailored to your business success.</p>
+                        <p>Trust Cedar Interiors to design interiors that reflect your unique style and needs. Our expertise in crafting personalized interiors ensures every corner of your Coimbatore home resonates with perfection.
+                        </p>
                     </div>
                 </div>
                 <img src={serviabt1} alt="" />
@@ -224,8 +230,9 @@ export default function Officeservice() {
         </div>
     </div>
     <div className='serviceportfolio'>
- <h2 className="header2">Portfolio for <span>Office Interiors</span></h2>
- <p>Explore our portfolio of office interiors tailored for style, comfort, and productivity.</p>
+ <h2 className="header2">Portfolio of Interior Designs in <span>Coimbatore</span></h2>
+ <p>Explore our curated portfolio of beautifully designed interiors, showcasing our expertise in crafting spaces that match Coimbatore’s vibrant culture and lifestyle.
+ </p>
  <div className="hr"></div>
  
  <div className="servportfolioinner">
@@ -449,18 +456,18 @@ export default function Officeservice() {
         </div>
       </div>
       <div className="servicegap"></div>
-      
       <div>
-      {" "}
-      <Testimonial />
-    </div>
-      
-    <div className='accordian'>
+    {" "}
+    <Testimonial />
+  </div>
+      <div className='accordian'>
       <div className="accordian-col">
         <p className='qa'>QUESTIONS & ANSWERS</p>
-        <h2 className='header2'>Let us help you find clarity</h2>
+        <h2 className='header2'>Portfolio of Interior Designs in Palakkad
+        </h2>
         <p className='qa-exp'>
-        We’re here to answer your queries and guide you through every step of your journey with us. Explore our frequently asked questions below.
+       Discover our portfolio featuring exquisite designs created for homes and offices in Palakkad.
+
           {/* <br /><br />
           Experience the ultimate getaway at our luxurious resort,
           where every detail is designed to offer. */}
@@ -472,10 +479,13 @@ export default function Officeservice() {
         <Accordion items={items} />
       </div>
     </div>
-    <Popup showPopup={showPopup} closePopup={closePopup} />
+     
+    <Popup showPopup={showPopup} closePopup={closePopup} /> 
     </div>
 
-    </>
+
+  </>
+
   )
 }
 

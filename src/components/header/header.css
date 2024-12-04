@@ -92,6 +92,30 @@ nav ul li a {
     bottom: -60%;
     left: 0;
 }
+.dropdown-content .active a::before{
+    content: '';
+    width: 35%;
+    height: 2px;
+    position: absolute;
+    background-color: #CC8835;
+    bottom: -10%;
+    left: 0;    
+}
+.dropdown-content .active a::after{
+    content: '';
+    width: 89%;
+    height: 2px;
+    position: absolute;
+    background-color: #CC8835;
+    bottom: 10%;
+    left: 0px;
+}
+.dropdown.active .dropdown-content a::before{
+    display:none;
+}
+.dropdown.active .dropdown-content a::after{
+    display:none;
+}
 
 /* For desktop view */
 .navbtn-container {
@@ -211,7 +235,7 @@ nav ul li a {
 /* Styles for clickable dropdown items */
 .dropdown-content div a, .submenu p a {
     display: block; /* Make the link take the full width */
-    padding: 10px 15px; /* Add some padding */
+    padding: 10px 0px; /* Add some padding */
     color: inherit; /* Use the same text color */
     text-decoration: none; /* Remove underline */
 }
@@ -219,11 +243,13 @@ nav ul li a {
 .dropdown-content div a:hover, .submenu p a:hover {
     background-color: rgba(204, 136, 53, 0.1); /* Highlight on hover */
 }
-
+.dropdown-content .active .dropdown-content{
+    display: none;
+}
 
 /* For mobile view */
 @media (max-width: 768px) {
-    .dropdown-content {
+     .dropdown-content {
         display: none; /* Hide dropdown by default */
     }
     

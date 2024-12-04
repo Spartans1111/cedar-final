@@ -11,8 +11,6 @@ import Serviceabt from "./servicabt/serviceabt";
 
 function service() {
   return (
-
-    
     <div className="service-main">
       <div className="servicehero"></div>
       <div className="servicehero1">

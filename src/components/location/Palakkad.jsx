@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import aboutimg1 from '../../images/aboutpage/aboutimg3.png';
 import aboutimg2 from '../../images/aboutpage/aboutimg.png';
 import aboutimg3 from '../../images/aboutpage/aboutimg4.png';
-import "./service.css";
 import Quatationform from "../formdesign/quoteform";
 import aw1 from '../../images/awandwin/aw1.png';
 import aw2 from '../../images/awandwin/aw2.png';
@@ -35,7 +34,7 @@ import "swiper/css/navigation";
 import Testimonial from "../Home/powerfull/powerfull";
 import Popup from '../pup/popup';
 
-export default function Officeservice() {
+export default function Palakkad() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [aboutimg1, aboutimg2, aboutimg3];
   
@@ -54,29 +53,26 @@ export default function Officeservice() {
 
   const items = [
     {
-      title: 'What office interior services does Cedar Interiors provide in Kerala?',
-      content: 'We specialize in custom office interiors, including workstations, reception desks, conference tables, and file storage units, catering to businesses in Cochin, Palakkad, and other areas.',
+      title: 'What interior design services do you offer in Palakkad?',
+      content: 'We provide comprehensive interior design services in Palakkad, including home interiors, modular kitchens, office interiors, and custom designs.',
     },
     {
-      title: 'Can Cedar Interiors design a modern and functional workspace for my office?',
-      content: 'Yes! We focus on ergonomic, modern designs tailored to optimize your workspace for productivity and collaboration.',
+      title: 'How do I start an interior project with Cedar Interiors in Palakkad?',
+      content: 'Contact our team through the website or visit our Palakkad office to discuss your requirements.',
     },
     {
-      title: 'How long does it take to complete an office interior project?',
-      content: 'Most office interior projects are completed within 30–45 days, depending on the scope and complexity.',
+      title: 'Do you offer custom interior solutions in Palakkad?',
+      content: 'Yes, we specialize in creating bespoke interior designs tailored to your lifestyle and preferences.',
     },
     {
-          title:'Do you offer office interior services in Tamil Nadu?',
-          content:'Yes, we provide our services in Tamil Nadu, including Coimbatore, ensuring businesses have inspiring workspaces.'
+          title:'How long does an interior project in Palakkad take to complete?',
+          content:'Most projects are completed within 45 days, depending on the scope and complexity of the design.'
     },
     {
-      title:'Can I customize my office interiors with Cedar Interiors?',
-      content:'Absolutely! Our office interior solutions are fully customizable to align with your business needs and aesthetic preferences.'
+      title:'What materials are used in your Palakkad projects?',
+      content:'We use premium, eco-friendly materials sourced from trusted suppliers to ensure quality and durability.'
   },
-  {
-    title:'What materials do you use for office interiors?',
-    content:'We use premium and durable materials to ensure functionality and longevity, matching your office’s style and requirements.'
-},
+
   ];
 
   const [showPopup, setShowPopup] = useState(false); // State to control popup visibility
@@ -88,18 +84,18 @@ export default function Officeservice() {
   const closePopup = () => {
     setShowPopup(false); // Function to close the popup
   };
-
   return (
     <>
-      <div className="service-main">
+  <div className="service-main">
       <div className="servicehero"></div>
       <div className="servicehero1">
         <div className="servicehero1col">
           <div className="discount">
-          <h2 className="header2">
-              <span>Office Interior Design Services</span>
-            </h2>
-            <h5 className="smallhead">Starting from <span>2 Lakhs</span></h5>
+            <h1 className="header2">
+              <span>Interior Design Services in 
+              </span> Palakkad
+            </h1>
+            <h5 className="smallhead">Starting from 2 Lakhs </h5>
           </div>
         </div>
         <div className="servicehero1col">
@@ -125,10 +121,13 @@ export default function Officeservice() {
           </div>
         </div>
         <div className="serviceinteriorcol sercol2">
-        <div className='awardandwinnig'> <h2 className='header2'><span> Redefine Your Workspace</span></h2>
-    <h6>with Tailored Office Interiors</h6>
-    <p>Cedar Interiors specializes in creating inspiring office spaces that boost productivity and represent your brand. From ergonomic designs to modern aesthetics, we craft offices that balance functionality with style. Transform your workspace into a hub of efficiency and innovation.</p>
-<p>Elevate your workspace with Cedar Interiors’ modern office designs. We combine cutting-edge layouts, high-quality materials, and practical solutions to create interiors that enhance collaboration and inspire creativity. Achieve an office space tailored to your business needs and aesthetics.</p>
+        <div className='awardandwinnig'> <h2 className='header2'><span>Expert Interior Designers in Palakkad</span></h2>
+    <p>Redefine your living spaces with Cedar Interiors, your trusted partner for interior design services in Palakkad. Whether you’re envisioning a modern aesthetic or traditional elegance, our personalized solutions cater to every need. We combine functionality, beauty, and craftsmanship to create interiors that truly reflect your personality.
+</p>
+<h2 className='header2'><span>Customized Interior Solutions in Palakkad
+</span></h2>
+    <p>At Cedar Interiors, we specialize in creating bespoke interiors tailored to suit the unique tastes of Palakkad residents. From high-quality materials to innovative designs, we transform homes into havens of comfort and style. Trust our expertise to deliver spaces that are both functional and visually stunning.
+</p>
 
 <div className="awardwiningblurb">
     <div className="blurb">
@@ -137,7 +136,7 @@ export default function Officeservice() {
         </div>
         <div className="aw-blurbcontent">
             <h5>Premium Quality</h5>
-            <p>Finest materials ensured</p>
+            <p>Finest materials ensured.</p>
         </div>
     </div>
     <div className="blurb">
@@ -157,43 +156,47 @@ export default function Officeservice() {
       <div className="hrline-bg">
         <div className="hrline"></div>{" "}
       </div>
-      <div className='homeservice'><h2 className="header2">Best Office <span>Interior Designers</span></h2>
-    <p>Enhance your workspace with Cedar Interiors’ office interior solutions. From ergonomic workstations to stylish reception desks, conference tables, and file storage units, we design spaces that optimize functionality and reflect professionalism.</p>
-    <div className="hr"></div>
-    {/*servicecard*/}
-  <div className="homeservicecard">
-    <div className="homesercardcol">
-        <h5 className="smallhead">Workstations</h5>
-        <img src={hsimg1} alt="homedesign" />
-        <p>Create a dynamic and efficient workspace with customized workstations. Designed for comfort and collaboration, our ergonomic solutions ensure your employees stay productive and focused.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
-    </div>
-    {/*card2*/}
-    <div className="homesercardcol">
-        <h5 className="smallhead">Reception Desks</h5>
-        <img src={hsimg2} alt="homedesign" />
-        <p>Make a lasting first impression with elegant reception desks. Our designs combine functionality with aesthetics, creating a welcoming and professional ambiance for your visitors.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
-    </div>
-       {/*card32*/}
-       <div className="homesercardcol">
-        <h5 className="smallhead">Conference Tables</h5>
-        <img src={hsimg2} alt="homedesign" />
-        <p>Host meetings in style with our custom conference tables. Combining sleek designs with practicality, our tables are crafted to encourage collaboration and seamless communication.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
-    </div>
-      {/*card32*/}
-      <div className="homesercardcol">
-        <h5 className="smallhead">File Storage Units</h5>
-        <img src={hsimg3} alt="homedesign" />
-        <p>Stay organized with our modern file storage units. Designed for space efficiency and durability, these units blend seamlessly into your office decor while keeping your files easily accessible.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
-    </div>
+      <div className='homeservice'><h2 className="header2"><span>Best Interior Designers in 
+      </span>Palakkad</h2>
+<p>Cedar Interiors offers premium design services for homes, offices, and custom projects in Palakkad. Our tailored solutions ensure every corner of your space reflects elegance, comfort, and functionality.</p>
+<div className="hr"></div>
+{/*servicecard*/}
+<div className="homeservicecard">
+<div className="homesercardcol">
+    <h5 className="smallhead">Home Interiors</h5>
+    <img src={hsimg1} alt="homedesign" />
+    <p>Bring elegance and functionality to your home with bespoke interiors. From cozy living spaces to serene bedrooms, we ensure every detail is tailored to your needs.
+    </p>
+    <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+</div>
+{/*card2*/}
+<div className="homesercardcol">
+    <h5 className="smallhead">Modular Kitchens</h5>
+    <img src={hsimg2} alt="homedesign" />
+    <p>Revamp your cooking experience with modern modular kitchen designs. Explore our smart solutions like U-shaped kitchens, island kitchens, and more, designed for both style and efficiency.
+    </p>
+    <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+</div>
+   {/*card32*/}
+   <div className="homesercardcol">
+    <h5 className="smallhead">Office Interiors</h5>
+    <img src={hsimg2} alt="homedesign" />
+    <p>Transform your workplace into a productivity hub with our office interior solutions. From ergonomic workstations to aesthetic conference rooms, we ensure your space inspires collaboration and creativity.</p>
+    <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+</div>
+  {/*card32*/}
+  <div className="homesercardcol">
+    <h5 className="smallhead">Custom Interior Designs</h5>
+    <img src={hsimg3} alt="homedesign" />
+    <p>Design unique spaces that match your lifestyle with our custom interior solutions. From shoe cabinets to home bars, our innovative designs elevate your home or office.
+    </p>
+    <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+</div>
 
-  </div>
+</div>
 
 
-    </div>
+</div>
     <div className='serviceabt'>
         <div className="serviceabtinner">
             <div className="serviceabitinnercol1">
@@ -202,21 +205,22 @@ export default function Officeservice() {
                     <p>Projects Successfully Completed</p>
                 </div>
                 <div className="servblurb">
-                    <h3>10-Year</h3>
+                    <h3>10-Year </h3>
                     <p>Trusted Warranty Coverage</p>
                 </div>
                 <div className="servblurb1">
-                    <h3 className='smallhead'>Turning Ideas Into Reality</h3>
-                    <p>With over two decades of expertise, Cedar Interiors transforms office spaces into functional, innovative, and inspiring environments that fuel productivity and reflect your brand identity.</p>
-                    <button className='btn2'>Get a Quote<span><BiRightArrowAlt/></span></button>
+                    <h3 className='smallhead'>Bringing Your Vision to Life</h3>
+                    <p>With Cedar Interiors in Palakkad, experience interiors that blend aesthetics with functionality. From concept to execution, our team ensures every project surpasses expectations.
+                    </p>
+                    <button className='btn2'>Get a Quote <span><BiRightArrowAlt/></span></button>
                 </div>
             </div>
             <div className="serviceabitinnercol">
-                <h2 className="header2">Innovative Spaces for Productivity</h2>
-                {/* <h6 className="smallhead">with cedar interiors</h6> */}
-                <div className="row1">
+                <h2 className="header2">Redefine Your Space with Cedar Interiors</h2>
+               <div className="row1">
                     <div className="row1col">
-                        <p>Experience office interiors designed for efficiency and collaboration. Cedar Interiors blends innovation and functionality to craft workspaces tailored to your business success.</p>
+                        <p>Explore how Cedar Interiors brings sophistication and practicality to your Palakkad interiors. We design with precision and passion to reflect your unique style.
+                        </p>
                     </div>
                 </div>
                 <img src={serviabt1} alt="" />
@@ -224,8 +228,9 @@ export default function Officeservice() {
         </div>
     </div>
     <div className='serviceportfolio'>
- <h2 className="header2">Portfolio for <span>Office Interiors</span></h2>
- <p>Explore our portfolio of office interiors tailored for style, comfort, and productivity.</p>
+ <h2 className="header2">Portfolio of Interior Designs in <span>Cochin</span></h2>
+ <p>Discover our curated portfolio of projects in Cochin, showcasing designs tailored for style and comfort.
+ </p>
  <div className="hr"></div>
  
  <div className="servportfolioinner">
@@ -449,13 +454,13 @@ export default function Officeservice() {
         </div>
       </div>
       <div className="servicegap"></div>
-      
-      <div>
-      {" "}
-      <Testimonial />
-    </div>
-      
-    <div className='accordian'>
+    
+    <div>
+    {" "}
+    <Testimonial />
+  </div>
+
+      <div className='accordian'>
       <div className="accordian-col">
         <p className='qa'>QUESTIONS & ANSWERS</p>
         <h2 className='header2'>Let us help you find clarity</h2>
@@ -472,10 +477,13 @@ export default function Officeservice() {
         <Accordion items={items} />
       </div>
     </div>
+     
     <Popup showPopup={showPopup} closePopup={closePopup} />
     </div>
 
-    </>
+
+  </>
+
   )
 }
 
