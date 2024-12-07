@@ -3,7 +3,7 @@ import Quoteform from "../formdesign/quoteform";
 import "./footer.css";
 import footerhouse from "../../images/footerhouse.png";
 // import flogo from "../../images/footelogo.png";
-import flogo from "../../images/cedar-logo.png";
+import flogo from "../../images/footelogo.png";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdPhone } from "react-icons/md";
 
@@ -33,23 +33,25 @@ const Footer = () => {
         <div className="footer-bottom-col col1">
           <div className="logo flogo">
             <Link to='/' className="logo-link"><img src={flogo} alt="Logo" /></Link>
-            <Link to='/' className="logo-link"><h1>CEDAR INTERIORS</h1></Link>
           </div>
           <p>
-            Elevate your spaces with Cader Designs & Interior Fitouts L.L.C.
-            Experience the fusion of your aspirations with our expertise,
-            creating interiors that speak volumes. Your space, our dedication –
-            a partnership that transforms imagination into reality.
+          Cedar Interiors, headquartered in Palakkad, Kerala, specializes in crafting premium, customized furniture and interior solutions for homes, offices, and institutions.
           </p>
+          <p>We cater to both commercial and residential projects, offering turn-key solutions for hotels, offices, and schools. With cutting-edge infrastructure and a commitment to sustainability, our designs are energy-efficient and eco-friendly.</p>
         </div>
         {/* col2 */}
         <div className="footer-bottom-col col2">
-          <h6>Quick Links</h6>
+          <h6>Our Services</h6>
           <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>About us</li>
-            <li>Blog & Stories</li>
+            <li><Link to="/homeinterior">Home Interiors</Link></li>
+            <li> <Link to="/packages">2 & 3 BHK Interior Packages</Link></li>
+            <li><Link to="/livingservice">Living Room Interiors</Link></li>
+            <li><Link to="/modularservice">Modular Kitchens</Link></li>
+            <li><Link to="/bedroom">Bedroom Interiors</Link></li>
+            <li><Link to="/diningroom">Dining Room Interiors</Link></li>
+            <li><Link to="/kidsroom">Kids Room Interiors</Link></li>
+            <li><Link to="/officeservice">Office Interiors</Link></li>
+            <li><Link to="/customservice">Custom Interior Units</Link></li>
           </ul>
         </div>
         {/* col3 */}
@@ -57,8 +59,7 @@ const Footer = () => {
           <h6>CONTACT</h6>
           <div className="blurb">
             <i>{<IoLocationOutline />}</i>
-            <p>Cedar Interiors, Robinson Road, Emmar Plaza, <br />
-              Palakkad, 678001
+            <p>Robinson Road, Emmar Plaza, Palakkad, Kerala - 678001
             </p>
           </div>
           <div className="blurb">
@@ -72,7 +73,7 @@ const Footer = () => {
         </div>
         {/* col4 */}
         <div className="footer-bottom-col col4">
-          <h6>Get connected with us</h6>
+          <h6>FOLLOW US ON!</h6>
           <div className="social-icons">
             <img src={insta} alt="insa" />
             <img src={fb} alt="insa" />
@@ -91,10 +92,10 @@ const Footer = () => {
       </div>
       <div className="secondryfooter">
         <div className="copyright">
-          <p>© 2016-2024 . All Rights Reserved</p>
+          <p>© 2024 . All Rights Reserved</p>
         </div>
         <div className="company">
-          <p>Website by Spartan Technologies</p>
+          <p>Website by <Link to="https://internetspartans.com/">Spartan Technologies</Link></p>
         </div>
         <div className="privacyterms">
           <p>Privacy Policy | Terms & Condition</p>

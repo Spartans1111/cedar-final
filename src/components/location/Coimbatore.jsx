@@ -168,7 +168,7 @@ export default function Coimbatore() {
     <img src={hsimg1} alt="homedesign" />
     <p>Revamp your home with interiors that blend aesthetics and comfort. From cozy living rooms and stylish bedrooms to functional dining spaces, our personalized designs elevate your lifestyle.
     </p>
-    <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+    <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
 </div>
 {/*card2*/}
 <div className="homesercardcol">
@@ -176,7 +176,7 @@ export default function Coimbatore() {
     <img src={hsimg2} alt="homedesign" />
     <p>Enhance your cooking space with state-of-the-art modular kitchens. Choose from layouts like island kitchens, straight kitchens, or U-shaped designs, crafted to add elegance and functionality to your home.
     </p>
-    <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+    <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
 </div>
    {/*card32*/}
    <div className="homesercardcol">
@@ -184,7 +184,7 @@ export default function Coimbatore() {
     <img src={hsimg2} alt="homedesign" />
     <p>Create productive workspaces with our office interior solutions. From ergonomic workstations and stylish conference tables to reception desks, we design professional spaces tailored for Coimbatore businesses.
     </p>
-    <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+    <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
 </div>
   {/*card32*/}
   <div className="homesercardcol">
@@ -192,7 +192,7 @@ export default function Coimbatore() {
     <img src={hsimg3} alt="homedesign" />
     <p>Add a touch of personalization with custom interior units. Be it modern shoe cabinets, luxurious bathrooms, or home bars, our designs are crafted to fit your Coimbatore home perfectly.
     </p>
-    <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+    <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
 </div>
 
 </div>
@@ -445,17 +445,8 @@ export default function Coimbatore() {
             </div>
           </div>
         </div>
-        <div className="aboutbtn2">
-          {" "}
-          <button className="btn2">
-            PORTFOLIO PROJECTS
-            <span>
-              <BiRightArrowAlt />
-            </span>
-          </button>
-        </div>
       </div>
-      <div className="servicegap"></div>
+
       <div>
     {" "}
     <Testimonial />

@@ -13,8 +13,9 @@ footer {
 .footertop-col {
   flex: 1;
 }
-.ftopcol1 {
-  padding-right: 10rem;
+.ftopcol2 {
+  display: flex;
+      justify-content: end;
 }
 /* .ftopcol2 {
   padding-right: 2rem;
@@ -36,14 +37,11 @@ footer {
 
   margin: 0 auto;
 }
-
-.flogo img{
-  border-radius: 7px;
+.footer-bottom-col .logo img{
+  width: 100%;
 }
 
-.flogo h1{
-  color :#FBFBFB;
-}
+
 
 
 
@@ -55,15 +53,15 @@ footer {
   background-size: cover;
   background-position: center;
   display: flex;
-  padding: 20px 80px;
+  padding: 50px 80px;
 }
 .footer-bottom .col1 p {
   color: #e5e5e5;
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px;
+  line-height: 30px;
   margin-top: 15px;
   letter-spacing: 0.13px;
 }
@@ -103,12 +101,18 @@ footer {
   line-height: 2rem;
   color: #e5e5e5;
 }
-.footer-bottom ul li {
+
+.footer-bottom-col ul li a{
   font-family: "Montserrat", sans-serif;
   color: #e5e5e5;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
+  text-decoration: none;
+
+}
+.footer-bottom-col ul li a:hover{
+  color: #efb74e;
 }
 .blurb {
   display: flex;
@@ -219,7 +223,10 @@ footer .col4 form button {
   padding: 8px 18px;
   border-radius: 25px;
 }
-
+.secondryfooter a{
+  text-decoration: none;
+  color: #fff;
+}
 /*-----media query----*/
 
 @media screen and (max-width: 1280px) {

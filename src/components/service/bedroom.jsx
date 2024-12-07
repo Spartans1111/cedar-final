@@ -167,28 +167,28 @@ export default function Bedroom() {
         <h5 className="smallhead">Wardrobes</h5>
         <img src={hsimg1} alt="homedesign" />
         <p>Maximize storage with custom-built wardrobes that are as functional as they are stylish. With sliding and hinged options, we design closets tailored to your needs and space.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
     </div>
     {/*card2*/}
     <div className="homesercardcol">
         <h5 className="smallhead">Dressing Units</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Add convenience and elegance to your bedroom with beautifully crafted dressing units. Featuring smart storage solutions and premium finishes, they enhance both functionality and aesthetics.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
     </div>
        {/*card32*/}
        <div className="homesercardcol">
         <h5 className="smallhead">Bed Frames</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Enhance comfort and style with our custom-designed bed frames. From modern low-platform beds to intricate wooden designs, we ensure a perfect blend of durability and elegance.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
     </div>
       {/*card32*/}
       <div className="homesercardcol">
         <h5 className="smallhead">Headboards</h5>
         <img src={hsimg3} alt="homedesign" />
         <p>Make a statement with bespoke headboards designed to complement your bedroom’s theme. From upholstered to wooden finishes, our designs add a touch of luxury to your sleeping space.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
     </div>
 
   </div>
@@ -439,7 +439,7 @@ export default function Bedroom() {
             </div>
           </div>
         </div>
-        <div className="aboutbtn2">
+        {/* <div className="aboutbtn2">
           {" "}
           <button className="btn2">
             PORTFOLIO PROJECTS
@@ -447,9 +447,8 @@ export default function Bedroom() {
               <BiRightArrowAlt />
             </span>
           </button>
-        </div>
+        </div> */}
       </div>
-      <div className="servicegap"></div>
       
       <div>
       {" "}

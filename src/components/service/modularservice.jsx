@@ -166,28 +166,28 @@ export default function Modularservice() {
         <h5 className="smallhead">Island Kitchens</h5>
         <img src={hsimg1} alt="homedesign" />
         <p>Bring elegance and spaciousness to your cooking area with a modern island kitchen design. Perfect for hosting, cooking, and creating a luxurious ambiance in your home.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
     {/*card2*/}
     <div className="homesercardcol">
         <h5 className="smallhead">Straight Kitchens</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Maximize efficiency in compact spaces with our straight kitchen layouts. This minimalist design aligns all elements along one wall for a streamlined cooking experience.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
        {/*card32*/}
        <div className="homesercardcol">
         <h5 className="smallhead">U-Shaped Kitchens</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Experience enhanced functionality with U-shaped kitchens featuring workspaces on three sides. Our designs ensure ample storage and workspace for a clutter-free environment.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
       {/*card32*/}
       <div className="homesercardcol">
         <h5 className="smallhead">Storage Cabinets</h5>
         <img src={hsimg3} alt="homedesign" />
         <p>Optimize your kitchen space with innovative storage cabinets. From pull-out pantries to corner units, our designs keep your essentials organized and accessible.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
 
   </div>
@@ -438,17 +438,7 @@ export default function Modularservice() {
             </div>
           </div>
         </div>
-        <div className="aboutbtn2">
-          {" "}
-          <button className="btn2">
-            PORTFOLIO PROJECTS
-            <span>
-              <BiRightArrowAlt />
-            </span>
-          </button>
-        </div>
       </div>
-      <div className="servicegap"></div>
       
       <div>
       {" "}

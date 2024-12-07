@@ -33,6 +33,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Testimonial from "../Home/powerfull/powerfull";
 import Popup from '../pup/popup';
+import { Link } from 'react-router-dom';
 
 export default function Homeinterior() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -153,7 +154,7 @@ export default function Homeinterior() {
         <div className="hrline"></div>{" "}
       </div>
       <div className='homeservice'><h2 className="header2"><span>Best</span> Home Interior <span>Designers</span></h2>
-    <p>Transform your home into a haven of style and functionality with Cedar Interiors. From elegant living spaces to modular kitchens, dining areas, and bedrooms, we deliver bespoke interior solutions tailored to your taste and needs.</p>
+    <p className='service-desc'>Transform your home into a haven of style and functionality with Cedar Interiors. From elegant living spaces to modular kitchens, dining areas, and bedrooms, we deliver bespoke interior solutions tailored to your taste and needs.</p>
     <div className="hr"></div>
     {/*servicecard*/}
   <div className="homeservicecard">
@@ -161,28 +162,28 @@ export default function Homeinterior() {
         <h5 className="smallhead">Living Room Interiors</h5>
         <img src={hsimg1} alt="homedesign" />
         <p>Transform your living room into the heart of your home with custom-crafted solutions. Whether it’s sleek TV units, practical coffee tables, or artistic partitions, our designs blend functionality and aesthetics to create a space you’ll love.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
     {/*card2*/}
     <div className="homesercardcol">
-        <h5 className="smallhead">Modular Kitchen Designs</h5>
+      <h5 className="smallhead">Modular Kitchen Designs</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Upgrade your cooking space with state-of-the-art modular kitchens. From space-efficient L-shaped and straight kitchens to spacious U-shaped and island designs, we offer layouts that seamlessly blend modernity and convenience. Crafted to enhance your cooking experience and add elegance to your home.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
        {/*card32*/}
        <div className="homesercardcol">
         <h5 className="smallhead">Bedroom Interiors</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Create a personal sanctuary with customized bedroom interiors. Our solutions include stylish wardrobes, cozy beds, and functional dressing units that combine storage, comfort, and elegance. Experience interiors that bring harmony and rejuvenation to your private space.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
       {/*card32*/}
       <div className="homesercardcol">
         <h5 className="smallhead">Dining Room Interiors</h5>
         <img src={hsimg3} alt="homedesign" />
         <p>Reimagine your dining space with thoughtfully designed furniture and layouts. From luxurious dining table sets to smart storage units and room partitions, our designs cater to both family gatherings and formal dinners. A blend of sophistication and practicality for your dining area.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
 
   </div>
@@ -434,17 +435,7 @@ Your space, our dedication a partnership that transforms imagination reality.</p
             </div>
           </div>
         </div>
-        <div className="aboutbtn2">
-          {" "}
-          <button className="btn2">
-            PORTFOLIO PROJECTS
-            <span>
-              <BiRightArrowAlt />
-            </span>
-          </button>
-        </div>
       </div>
-      <div className="servicegap"></div>
       
       <div>
       {" "}

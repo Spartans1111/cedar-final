@@ -131,7 +131,7 @@ const packages = () => {
               </button>
             </div>
           </div>
-          <div className="servicegap"></div>
+
 <Tesimonial/>
 <div className='accordian'>
       <div className="accordian-col">

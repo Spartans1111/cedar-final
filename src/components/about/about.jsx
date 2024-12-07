@@ -4,14 +4,7 @@ import Aboutslider from "./aboutslider";
 import border from "../../images/aboutpage/border.png";
 import Awardandwinning from "../awardandwinng/awardandwinning";
 import Testimonial from "../Home/powerfull/powerfull";
-import abimg1 from "../../images/c1 (1).png";
-import abimg2 from "../../images/c1 (2).png";
-import abimg3 from "../../images/c1 (3).png";
-import abimg4 from "../../images/c1 (4).png";
 import bestimg from "../../images/aboutpage/bestseller.png";
-import primum from "../../images/aboutpage/primiumquality.png";
-import aboutarrow from "../../images/aboutpage/aboutarow.png";
-import { BiRightArrowAlt } from "react-icons/bi";
 import Chooseus from '../Home/whychose/choose.jsx';
 
 function about() {
@@ -19,8 +12,8 @@ function about() {
     <div className="about-main">
       <div className="about-hero">
         <div className="aboutheroleft">
-          <img src={border} alt="img" className="aboutborderimg" />
           <div className="about-slide">
+          <img src={border} alt="img" className="aboutborderimg" />
             <Aboutslider />
           </div>
         </div>
@@ -138,10 +131,6 @@ function about() {
         <div className="bestsellcol">
           <div className="bestsellcard">
             <img src={bestimg} alt="img" className="bestsellimg" />
-            <div className="bestbtn">
-              {" "}
-              <button className="btn1">10+Years Warrenty</button>
-            </div>
           </div>
         </div>
         <div className="bestsellcol">
@@ -155,10 +144,6 @@ function about() {
           </p>
           <p>Our advanced manufacturing facility includes a state-of-the-art sawmill, wood processing, and treatment plants, exclusively dedicated to production. Equipped with the latest machinery, our workshop ensures seamless production planning and execution.</p>
           <p>Our team comprises skilled engineers, designers, architects, and space planners who collaborate to deliver exceptional craftsmanship. Additionally, a dedicated unit for office administration and after-sales services at our retail showrooms ensures the highest level of customer satisfaction.</p>
-          {/* <div className="primumimg">
-            <img src={primum} alt="primum" />
-            <img src={aboutarrow} alt="aboutarrow" className="aboutimgarrow" />
-          </div> */}
         </div>
       </div>
 

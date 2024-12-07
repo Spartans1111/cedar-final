@@ -165,28 +165,28 @@
         <h5 className="smallhead">Shoe Cabinets</h5>
         <img src={hsimg1} alt="homedesign" />
         <p>Organize your footwear in style with custom-designed shoe cabinets. Crafted for elegance and efficiency, our cabinets blend seamlessly with your interiors while keeping your space clutter-free.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
     {/*card2*/}
     <div className="homesercardcol">
         <h5 className="smallhead">Modern Bathrooms</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Upgrade your bathrooms with sleek, modern designs that maximize functionality and luxury. From vanity units to storage solutions, we create bathrooms that offer a spa-like experience.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
        {/*card32*/}
        <div className="homesercardcol">
         <h5 className="smallhead">Home Bars</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Create a personal entertainment hub with custom-designed home bars. Perfect for hosting or unwinding, our designs combine elegance with practicality, tailored to complement your space.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
       {/*card32*/}
       <div className="homesercardcol">
         <h5 className="smallhead">Aesthetic TV Units</h5>
         <img src={hsimg3} alt="homedesign" />
         <p>Enhance your living room with aesthetic TV units. Designed to blend beauty and functionality, our units provide ample storage and style, becoming a focal point of your space.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
 
   </div>
@@ -437,17 +437,7 @@
                 </div>
               </div>
             </div>
-            <div className="aboutbtn2">
-              {" "}
-              <button className="btn2">
-                PORTFOLIO PROJECTS
-                <span>
-                  <BiRightArrowAlt />
-                </span>
-              </button>
-            </div>
           </div>
-          <div className="servicegap"></div>
           
           <div>
           {" "}

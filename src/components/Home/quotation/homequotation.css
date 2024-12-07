@@ -1,3 +1,4 @@
+
 /* homequotation.css */
 .homequtation {
   position: relative;
@@ -137,12 +138,15 @@
   outline: none;
   border: none;
   background: transparent;
-  width: 66%;
   font-size: 15px;
   color: #36393f;
-  text-transform: uppercase;
+  width: 100%;
+  
 }
-
+.homequotationcontent form input::placeholder {
+   font-family: "Montserrat", sans-serif!important;
+ 
+}
 @media screen and (max-width: 800px) {
   .homequtation {
     display: flex;

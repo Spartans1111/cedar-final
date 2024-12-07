@@ -167,7 +167,7 @@ export default function Palakkad() {
     <img src={hsimg1} alt="homedesign" />
     <p>Bring elegance and functionality to your home with bespoke interiors. From cozy living spaces to serene bedrooms, we ensure every detail is tailored to your needs.
     </p>
-    <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+    <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
 </div>
 {/*card2*/}
 <div className="homesercardcol">
@@ -175,14 +175,14 @@ export default function Palakkad() {
     <img src={hsimg2} alt="homedesign" />
     <p>Revamp your cooking experience with modern modular kitchen designs. Explore our smart solutions like U-shaped kitchens, island kitchens, and more, designed for both style and efficiency.
     </p>
-    <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+    <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
 </div>
    {/*card32*/}
    <div className="homesercardcol">
     <h5 className="smallhead">Office Interiors</h5>
     <img src={hsimg2} alt="homedesign" />
     <p>Transform your workplace into a productivity hub with our office interior solutions. From ergonomic workstations to aesthetic conference rooms, we ensure your space inspires collaboration and creativity.</p>
-    <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+    <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
 </div>
   {/*card32*/}
   <div className="homesercardcol">
@@ -190,7 +190,7 @@ export default function Palakkad() {
     <img src={hsimg3} alt="homedesign" />
     <p>Design unique spaces that match your lifestyle with our custom interior solutions. From shoe cabinets to home bars, our innovative designs elevate your home or office.
     </p>
-    <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+    <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
 </div>
 
 </div>
@@ -443,17 +443,7 @@ export default function Palakkad() {
             </div>
           </div>
         </div>
-        <div className="aboutbtn2">
-          {" "}
-          <button className="btn2">
-            PORTFOLIO PROJECTS
-            <span>
-              <BiRightArrowAlt />
-            </span>
-          </button>
-        </div>
       </div>
-      <div className="servicegap"></div>
     
     <div>
     {" "}

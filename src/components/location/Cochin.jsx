@@ -162,28 +162,28 @@ export default function Cochin() {
   <h5 className="smallhead">Home Interiors</h5>
   <img src={hsimg1} alt="homedesign" />
   <p>Transform your living spaces in Cochin into stylish and functional havens. From custom-crafted living rooms to luxurious bedrooms, our designs prioritize comfort and elegance, creating interiors that feel like home.</p>
-  <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+  <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
 </div>
 {/*card2*/}
 <div className="homesercardcol">
   <h5 className="smallhead">Modular Kitchens</h5>
   <img src={hsimg2} alt="homedesign" />
   <p>Redefine your Cochin kitchen with modern layouts such as L-shaped, U-shaped, and island kitchens. Crafted for both convenience and style, our designs enhance your cooking experience while adding aesthetic charm to your home.</p>
-  <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+  <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
 </div>
  {/*card32*/}
  <div className="homesercardcol">
   <h5 className="smallhead">Office Interiors</h5>
   <img src={hsimg2} alt="homedesign" />
   <p>Elevate your Cochin workspace with professional office interiors. From ergonomic workstations to modern conference tables and reception desks, our designs focus on productivity and sophistication..</p>
-  <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+  <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
 </div>
 {/*card32*/}
 <div className="homesercardcol">
   <h5 className="smallhead">Custom Interior Designs</h5>
   <img src={hsimg3} alt="homedesign" />
   <p>Looking for unique design solutions in Cochin? Cedar Interiors offers personalized custom interior units, including aesthetic TV units, home bars, and more, tailored to fit your needs and lifestyle.</p>
-  <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+  <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
 </div>
 
 </div>
@@ -436,17 +436,7 @@ export default function Cochin() {
           </div>
         </div>
       </div>
-      <div className="aboutbtn2">
-        {" "}
-        <button className="btn2">
-          PORTFOLIO PROJECTS
-          <span>
-            <BiRightArrowAlt />
-          </span>
-        </button>
-      </div>
     </div>
-    <div className="servicegap"></div>
     
     <div>
     {" "}

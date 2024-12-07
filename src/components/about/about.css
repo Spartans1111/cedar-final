@@ -15,7 +15,7 @@
 .aboutborderimg {
   position: absolute;
   top: -10%;
-  right: 22%;
+  right: -8%;
 }
 .aboutchoose .btn2 {
   margin: 0rem auto;
@@ -26,8 +26,7 @@
 .about-slide {
   border: 20px solid #fff;
   border-radius: 20px;
-  overflow: hidden;
-  width: 70%;
+  position: relative;
 }
 .aboutbtn2 {
   text-align: center;
@@ -60,8 +59,8 @@
 
 .aboutslider {
   position: relative;
-  width: 100%;
-  height: 60vh;
+  width: 395px;
+  height: 350px;
   perspective: 1000px; /* 3D perspective for flip effect */
   overflow: hidden;
 }
@@ -160,18 +159,18 @@
 .mission::after {
   content: "";
   width: 1px;
-  height: 7vh;
+  height:9vh;
   position: absolute;
-  top: -39%;
+  top: -62px;
   left: -16px;
   background-color: #e0dfe2;
 }
 .vission::after {
   content: "";
   width: 2px;
-  height: 7vh;
+  height: 9vh;
   position: absolute;
-  top: -39%;
+  top: -62px;
   left: -16px;
   background-color: #e0dfe2;
 }
@@ -278,9 +277,7 @@
   /* gap: 35px; */
 }
 .bestsellcard {
-  position: relative;
-  width: 65%;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .bestsellcol p {
@@ -290,42 +287,10 @@
 .bestsellcard img{
   position: relative;
    border-radius: 15px;
-     width: 100%;
+    
      object-fit: cover;
   }
-.bestsellcard::before{
-  content: '';
-  position: absolute;
-  border-radius: 50px;
-  background-color: #ff000000;
-  box-shadow: 14px 22px 0px #ffffff;
-  width: 7.5%;
-  height: 39px;
-  left: 32.5%;
-  bottom: 4px;
-  z-index: 5;
-}
-.bestsellcard::after{
-  content: '';
-  position: absolute;
-  border-radius: 50px;
-  background-color: transparent;
-  box-shadow: 15px 17px 0px #ffffff;
-  width: 35px;
-  height: 36px;
-  right: 0%;
-  bottom: 14.4%;
-  z-index: 5;
-}
-.bestsellcard .bestbtn {
-  border-radius: 20px;
-  background-color: #fff;
-  padding: 1rem;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 60%;
-}
+
 .bestbtn .btn1 {
   margin-top: 0px;
   font-size: 14px;
@@ -369,14 +334,12 @@
     top: 2%;
   }
 
-  .bestsellcard::after {
-    bottom: 17.3%;
-  }
+  
 }
 
 @media screen and (max-width: 1024px) {
   .about-hero {
-    padding: 8rem 2rem 3rem 2rem;
+    padding: 4rem 2rem 3rem 2rem;
   }
   .aboutheroleft {
     flex: 1;
@@ -385,8 +348,8 @@
   }
   .aboutborderimg {
     position: absolute;
-    top: -5%;
-    right: 5%;
+    top: -10%;
+    right: -8%;
   }
 
   .about-slide {
@@ -400,7 +363,8 @@
   .aboutslider {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    height: 40vh;
+    height: 60vh;
+    width: 100%;
   }
 
   .hrline {
@@ -448,18 +412,7 @@
     margin: 0 auto;
   }
 
-  .bestsellcard::after {
-    content: '';
-    position: absolute;
-    border-radius: 50px;
-    background-color: #c9101000;
-    box-shadow: 15px 17px 0px #ffffff;
-    width: 35px;
-    height: 30px;
-    right: 0%;
-    bottom: 16.1% !important;
-    z-index: 5;
-}
+ 
 }
 
 
@@ -471,9 +424,7 @@
     width: 95%;
     margin-bottom: 2rem;
   }
-  .aboutborderimg {
-    right: 0;
-  }
+
   .aboutherosecond {
     padding: 0rem 0rem;
   }
@@ -540,24 +491,14 @@
     width: 100%;
 }
 
-  .bestsellcard::after {
-    content: '';
-    position: absolute;
-    border-radius: 50px;
-    background-color: #c9101000;
-    box-shadow: 15px 17px 0px #ffffff;
-    width: 35px;
-    height: 30px;
-    right: 0%;
-    bottom: 14.1% !important;
-    z-index: 5;
-}
+ 
 }
 @media screen and (max-width: 480px) {
   .about-hero {
     padding: 2rem 1rem;
   }
   .aboutslider {
+    width: 100%;
     height: 35vh;
   }
   .awardwiningblurb {
@@ -633,31 +574,10 @@
   .bestsellcol .header2, .bestsellcol h6{
     font-size: 27px;
   }
-
-  .bestsellcard::before {
-    content: '';
-    position: absolute;
-    border-radius: 50px;
-    background-color: #ff000000;
-    box-shadow: 14px 22px 0px #ffffff;
-    width: 36px;
-    height: 39px;
-    left: 29% !important;
-    bottom: 4px;
+.bestsellcard img{
+  width: 100%;
 }
-
-.bestsellcard::after {
-  content: '';
-  position: absolute;
-  border-radius: 50px;
-  background-color: #c9101000;
-  box-shadow: 15px 17px 0px #ffffff;
-  width: 35px;
-  height: 30px;
-  right: 0%;
-  bottom: 20% !important;
-  z-index: 5;
-}
+  
 
 .aboutheroright {
   margin-left: 0;

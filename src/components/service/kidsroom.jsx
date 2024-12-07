@@ -166,28 +166,28 @@ export default function Kidsroom() {
         <h5 className="smallhead">Bunk Beds</h5>
         <img src={hsimg1} alt="homedesign" />
         <p>Maximize space and fun with our custom-designed bunk beds. These space-saving solutions offer safety, style, and comfort, making them perfect for shared rooms or playful sleepovers.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
     </div>
     {/*card2*/}
     <div className="homesercardcol">
         <h5 className="smallhead">Study Tables</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Encourage learning and focus with ergonomic study tables. Designed with ample storage and a modern aesthetic, our study tables create a perfect study environment for your child.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
     </div>
        {/*card32*/}
        <div className="homesercardcol">
         <h5 className="smallhead">Toy Storage Units</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Say goodbye to clutter with our efficient toy storage units. These designs combine functionality with style, ensuring every toy has its place while maintaining a tidy and inviting room.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
     </div>
       {/*card32*/}
       <div className="homesercardcol">
         <h5 className="smallhead">Wall Art Panels</h5>
         <img src={hsimg3} alt="homedesign" />
         <p>Add a splash of creativity with personalized wall art panels. From playful patterns to educational designs, these panels enhance the room’s personality and inspire young minds.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
     </div>
 
   </div>
@@ -438,17 +438,7 @@ export default function Kidsroom() {
             </div>
           </div>
         </div>
-        <div className="aboutbtn2">
-          {" "}
-          <button className="btn2">
-            PORTFOLIO PROJECTS
-            <span>
-              <BiRightArrowAlt />
-            </span>
-          </button>
-        </div>
       </div>
-      <div className="servicegap"></div>
       
       <div>
       {" "}

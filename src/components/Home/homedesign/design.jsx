@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./design.css";
 import img1 from "../../../images/design/design1.png";
@@ -6,6 +7,7 @@ import img3 from "../../../images/design/design3.png";
 import img4 from "../../../images/design/design4.png";
 import img5 from "../../../images/design/design5.png";
 import { GoArrowRight } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 const design = () => {
   return (
@@ -22,8 +24,8 @@ const design = () => {
         <div className="grid grid1">
           <img src={img3} alt="design" />
           <div className="design-btn">
-            <button className="btn2">
-              Living Room Interiors<span>{<GoArrowRight />}</span>
+            <button className="btn2"><Link to="/livingservice">
+              Living Room Interiors<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>
         </div>
@@ -31,8 +33,8 @@ const design = () => {
           {" "}
           <img src={img4} alt="design" />
           <div className="design-btn">
-            <button className="btn2">
-              Modular Kitchenss<span>{<GoArrowRight />}</span>
+            <button className="btn2"> <Link to="/modularservice">
+              Modular Kitchenss<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>{" "}
         </div>
@@ -41,23 +43,23 @@ const design = () => {
           <div className="bedroomimg">
             <img src={img5} alt="design" />
             <div className="design-btn">
-              <button className="btn2">
-              Bedroom Interiors<span>{<GoArrowRight />}</span>
+              <button className="btn2"><Link to="/bedroom">
+              Bedroom Interiors<span>{<GoArrowRight />}</span></Link>
               </button>
             </div>
           </div>
           <div className="designmore">
             <h3>10+</h3>
-            <p>Custom Interior Solutions</p>
-            <span className="designmorearrow">{<GoArrowRight />}</span>
+            <p>Custom Interior Solutions</p> <Link to="/customservice">
+            <span className="designmorearrow">{<GoArrowRight />}</span></Link>
           </div>
         </div>
         <div className="grid grid4">
           {" "}
           <img src={img2} alt="design" />
           <div className="design-btn">
-            <button className="btn2">
-            Office Interiors<span>{<GoArrowRight />}</span>
+            <button className="btn2">  <Link to="/officeservice" >
+            Office Interiors<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>{" "}
         </div>
@@ -65,8 +67,8 @@ const design = () => {
           {" "}
           <img src={img1} alt="design" />
           <div className="design-btn">
-            <button className="btn2">
-            Dining Room Interiors<span>{<GoArrowRight />}</span>
+            <button className="btn2"> <Link to="/diningroom">
+            Dining Room Interiors<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>
         </div>
@@ -78,8 +80,8 @@ const design = () => {
         <div className="design-card">
           <img src={img3} alt="design" />
           <div className="design-btn">
-            <button className="btn2">
-              Living room design<span>{<GoArrowRight />}</span>
+            <button className="btn2"><Link to="/livingservice">
+              Living room design<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>
         </div>
@@ -87,8 +89,8 @@ const design = () => {
           {" "}
           <img src={img4} alt="design" />
           <div className="design-btn">
-            <button className="btn2">
-              Kitchan designs<span>{<GoArrowRight />}</span>
+            <button className="btn2"><Link to="/modularservice">
+              Kitchan designs<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>{" "}
         </div>
@@ -97,8 +99,8 @@ const design = () => {
           
             <img src={img5} alt="design" />
             <div className="design-btn">
-              <button className="btn2">
-                Bedroom designs<span>{<GoArrowRight />}</span>
+              <button className="btn2"><Link to="/bedroom">
+                Bedroom designs<span>{<GoArrowRight />}</span></Link>
               </button>
             </div>
         </div>
@@ -106,8 +108,8 @@ const design = () => {
           {" "}
           <img src={img2} alt="design" />
           <div className="design-btn">
-            <button className="btn2">
-              Office designs<span>{<GoArrowRight />}</span>
+            <button className="btn2"> <Link to="/officeservice" >
+              Office designs<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>{" "}
         </div>
@@ -115,8 +117,8 @@ const design = () => {
           {" "}
           <img src={img1} alt="design" />
           <div className="design-btn">
-            <button className="btn2">
-              Dining designs<span>{<GoArrowRight />}</span>
+            <button className="btn2"><Link to="/diningroom">
+              Dining designs<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>
         </div>

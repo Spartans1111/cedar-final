@@ -13,7 +13,13 @@
   line-height: 1.4em;
   letter-spacing: 0.36px;
 }
-
+.design-btn a{
+  text-decoration: none;
+  color: #fff;
+}
+.design-btn .btn2{
+  padding: 9px 6px 9px 18px;
+}
 .designheader p {
   color: #323232;
   font-family: "Montserrat", sans-serif;

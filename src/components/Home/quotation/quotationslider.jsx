@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import img1 from '../../../images/quotationslider/img1.png';
 import img2 from '../../../images/quotationslider/img2.png';
-import img3 from '../../../images/quotationslider/img3.png';
 import img4 from '../../../images/quotationslider/img4.png';
 
 const Quotationslider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(true);
-  const images = [img1, img2, img3, img4];
+  const images = [img1, img2, img4];
   
   // Duplicate the first image at the end to create an infinite loop effect
   const extendedImages = [...images, images[0]];

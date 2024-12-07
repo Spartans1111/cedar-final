@@ -6,11 +6,13 @@
     justify-content: start;
 }
 .serviceabtinner{
+    /* background-image: url("../../../images/service/bg.jpeg"); */
     background-color: #484133;
     border-radius: 25px;
     padding: 2rem 2rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .serviceabitinnercol1{
     width: 25%;

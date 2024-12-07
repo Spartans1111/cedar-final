@@ -166,28 +166,28 @@ export default function Diningroom() {
         <h5 className="smallhead">Dining Tables</h5>
         <img src={hsimg1} alt="homedesign" />
         <p>Set the stage for memorable meals with our custom-crafted dining tables. Choose from a variety of materials and designs, from solid wood to glass finishes, ensuring your table is both functional and beautiful.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
     {/*card2*/}
     <div className="homesercardcol">
         <h5 className="smallhead">Chairs</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Complete your dining experience with ergonomically designed chairs. Offering style and comfort, our chairs are tailored to complement your dining table and overall interior theme.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
        {/*card32*/}
        <div className="homesercardcol">
         <h5 className="smallhead">Sideboards</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Add convenience and style to your dining space with our multifunctional sideboards. Ideal for storing dining essentials, these pieces enhance organization while blending seamlessly with your décor.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
       {/*card32*/}
       <div className="homesercardcol">
         <h5 className="smallhead">Partition Screens</h5>
         <img src={hsimg3} alt="homedesign" />
         <p>Create defined spaces with our elegant partition screens. Designed for both privacy and style, they add a sophisticated touch to open dining areas while maintaining a cohesive flow.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
 
   </div>
@@ -438,17 +438,8 @@ export default function Diningroom() {
             </div>
           </div>
         </div>
-        <div className="aboutbtn2">
-          {" "}
-          <button className="btn2">
-            PORTFOLIO PROJECTS
-            <span>
-              <BiRightArrowAlt />
-            </span>
-          </button>
-        </div>
+
       </div>
-      <div className="servicegap"></div>
       
       <div>
       {" "}

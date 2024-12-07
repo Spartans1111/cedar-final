@@ -1,12 +1,22 @@
 import React from 'react';
+import { useState } from 'react';
 import './gallery.css';
 import galimg from '../../images/gallery/ns.png';
 import Gallery1 from './gallery1/gallery1';
 import Gallery2 from './gallery2/gallery2';
 import Gallery3 from './gallery3/gallery3';
+import Popup from '../pup/popup';
 
+const Gallery = () => {
+    const [showPopup, setShowPopup] = useState(false); // State to control popup visibility
 
-const gallery = () => {
+    const openPopup = () => {
+      setShowPopup(true); // Function to open the popup
+    };
+  
+    const closePopup = () => {
+      setShowPopup(false); // Function to close the popup
+    };
   return (
     <div className='gallery'>
        <div className="galleryhero">
@@ -31,30 +41,14 @@ const gallery = () => {
             <div className="galllry-col">
                 <div className="galleryserv">
                 <img src={galimg} alt="" />
-                <p>need services</p>
+                <p onClick={openPopup}>need services</p>
                 </div>
                           </div>
         </div>
 <Gallery1/>
        </div>
 
-{/*gallery-row-2*/}      
-<div className="gallery-row">
-        <div className="galley-row-content">
-            <div className="galllry-col">
-            <h2 className="header2">Living Room Interior Design <span>Showcase </span></h2>
-            <p>Discover the artistry of Cedar Interiors through our curated gallery. </p>
-                <div className="gal-hr"></div>
-            </div>
-            <div className="galllry-col">
-                <div className="galleryserv">
-                <img src={galimg} alt="" />
-                <p>need services</p>
-                </div>
-                          </div>
-        </div>
-<Gallery2/>
-       </div>
+
        {/*gallery-row-3*/}      
        <div className="gallery-row">
         <div className="galley-row-content">
@@ -66,68 +60,13 @@ const gallery = () => {
             <div className="galllry-col">
                 <div className="galleryserv">
                 <img src={galimg} alt="" />
-                <p>need services</p>
+                <p onClick={openPopup}>need services</p>
                 </div>
                           </div>
         </div>
 <Gallery3/>
        </div>
-
-     {/*gallery-row-4*/}      
-     <div className="gallery-row">
-        <div className="galley-row-content">
-            <div className="galllry-col">
-            <h2 className="header2">Bedroom Interior Design <span>Showcase </span></h2>
-            <p>Discover the artistry of Cedar Interiors through our curated gallery. </p>
-                <div className="gal-hr"></div>
-            </div>
-            <div className="galllry-col">
-                <div className="galleryserv">
-                <img src={galimg} alt="" />
-                <p>need services</p>
-                </div>
-                          </div>
-        </div>
-<Gallery2/>
-       </div>    
-
-
-     {/*gallery-row-5*/}      
-     <div className="gallery-row">
-        <div className="galley-row-content">
-            <div className="galllry-col">
-            <h2 className="header2">Dining Room Interior Design <span>Showcase </span></h2>
-            <p>Discover the artistry of Cedar Interiors through our curated gallery. </p>
-                <div className="gal-hr"></div>
-            </div>
-            <div className="galllry-col">
-                <div className="galleryserv">
-                <img src={galimg} alt="" />
-                <p>need services</p>
-                </div>
-                          </div>
-        </div>
-<Gallery2/>
-       </div>    
-
-
-     {/*gallery-row-6*/}      
-     <div className="gallery-row">
-        <div className="galley-row-content">
-            <div className="galllry-col">
-            <h2 className="header2">Kids Room Interior Design <span>Showcase </span></h2>
-            <p>Discover the artistry of Cedar Interiors through our curated gallery. </p>
-                <div className="gal-hr"></div>
-            </div>
-            <div className="galllry-col">
-                <div className="galleryserv">
-                <img src={galimg} alt="" />
-                <p>need services</p>
-                </div>
-                          </div>
-        </div>
-<Gallery2/>
-       </div>    
+ 
 
 
      {/*gallery-row-7*/}      
@@ -141,7 +80,7 @@ const gallery = () => {
             <div className="galllry-col">
                 <div className="galleryserv">
                 <img src={galimg} alt="" />
-                <p>need services</p>
+                <p onClick={openPopup}>need services</p>
                 </div>
                           </div>
         </div>
@@ -159,7 +98,7 @@ const gallery = () => {
             <div className="galllry-col">
                 <div className="galleryserv">
                 <img src={galimg} alt="" />
-                <p>need services</p>
+                <p onClick={openPopup}>need services</p>
                 </div>
                           </div>
         </div>
@@ -167,9 +106,9 @@ const gallery = () => {
        </div>    
  
 
-
+       <Popup showPopup={showPopup} closePopup={closePopup} />
     </div>
   )
 }
 
-export default gallery
+export default Gallery

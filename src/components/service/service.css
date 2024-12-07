@@ -2,7 +2,7 @@
     background: url('../../images//package/packagehero.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     background-position: center;
 }
@@ -10,7 +10,7 @@
     font-size: 15px;
     text-transform: uppercase;
 }
-
+  
 .smallhead span{
     color: #d9a264;
 }
@@ -43,7 +43,7 @@
 }
 
 .servicehero1col:last-child{
-    margin-top: -70px;
+    margin-top: -25px;
     margin-right: 50px;
 }
 
@@ -64,7 +64,7 @@
     border: 20px solid #fcfcfc;
     border-radius: 15px;
     overflow: hidden;
-    width: 85%;  
+    /* width: 85%;   */
     z-index: 2;
 }
 .sercol1{
@@ -100,6 +100,10 @@
     
 }
 
+.service-desc{
+    padding: 0 6rem;
+    text-align: center;
+}
 
 
 
@@ -190,6 +194,10 @@
 
     .service-main{
         margin-bottom: 50px;
+    }
+
+    .service-desc{
+        padding: 0;
     }
 }
 @media screen and (max-width:800px) {

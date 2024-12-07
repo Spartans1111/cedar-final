@@ -23,7 +23,7 @@
 .kerlapkgcol img{
     margin-bottom: 25px;
     width: 100%;
-    
+    border-radius: 15px;
 }
 
 @media screen and (max-width:1280px){

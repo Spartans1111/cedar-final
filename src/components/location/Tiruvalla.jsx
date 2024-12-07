@@ -168,7 +168,7 @@ export default function Tiruvalla() {
     <img src={hsimg1} alt="homedesign" />
     <p>Create warm and inviting living spaces with our personalized home interior solutions. Whether it’s stylish living rooms, bedrooms, or dining areas, we design spaces that reflect your personality and provide comfort.
     </p>
-    <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+    <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
 </div>
 {/*card2*/}
 <div className="homesercardcol">
@@ -176,7 +176,7 @@ export default function Tiruvalla() {
     <img src={hsimg2} alt="homedesign" />
     <p>Enhance your cooking experience with our modern modular kitchens. Featuring innovative layouts like L-shaped, straight kitchens, and U-shaped designs, our kitchens are crafted for both style and efficiency.
     </p>
-    <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+    <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
 </div>
    {/*card32*/}
    <div className="homesercardcol">
@@ -184,7 +184,7 @@ export default function Tiruvalla() {
     <img src={hsimg2} alt="homedesign" />
     <p>Elevate your workspace with functional and stylish office interiors. From ergonomic workstations to sophisticated conference tables, we create professional environments that inspire productivity.
     </p>
-    <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+    <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
 </div>
   {/*card32*/}
   <div className="homesercardcol">
@@ -192,7 +192,7 @@ export default function Tiruvalla() {
     <img src={hsimg3} alt="homedesign" />
     <p>Add a unique touch to your interiors with our custom-designed units. From shoe cabinets and modern bathrooms to aesthetic TV units, we create solutions tailored to your space and needs.
     </p>
-    <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+    <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
 </div>
 
 </div>
@@ -445,17 +445,8 @@ export default function Tiruvalla() {
             </div>
           </div>
         </div>
-        <div className="aboutbtn2">
-          {" "}
-          <button className="btn2">
-            PORTFOLIO PROJECTS
-            <span>
-              <BiRightArrowAlt />
-            </span>
-          </button>
-        </div>
+
       </div>
-      <div className="servicegap"></div>
     
     <div>
     {" "}

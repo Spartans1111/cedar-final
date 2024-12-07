@@ -166,28 +166,28 @@ export default function Officeservice() {
         <h5 className="smallhead">Workstations</h5>
         <img src={hsimg1} alt="homedesign" />
         <p>Create a dynamic and efficient workspace with customized workstations. Designed for comfort and collaboration, our ergonomic solutions ensure your employees stay productive and focused.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
     {/*card2*/}
     <div className="homesercardcol">
         <h5 className="smallhead">Reception Desks</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Make a lasting first impression with elegant reception desks. Our designs combine functionality with aesthetics, creating a welcoming and professional ambiance for your visitors.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
        {/*card32*/}
        <div className="homesercardcol">
         <h5 className="smallhead">Conference Tables</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Host meetings in style with our custom conference tables. Combining sleek designs with practicality, our tables are crafted to encourage collaboration and seamless communication.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
       {/*card32*/}
       <div className="homesercardcol">
         <h5 className="smallhead">File Storage Units</h5>
         <img src={hsimg3} alt="homedesign" />
         <p>Stay organized with our modern file storage units. Designed for space efficiency and durability, these units blend seamlessly into your office decor while keeping your files easily accessible.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
 
   </div>
@@ -438,17 +438,7 @@ export default function Officeservice() {
             </div>
           </div>
         </div>
-        <div className="aboutbtn2">
-          {" "}
-          <button className="btn2">
-            PORTFOLIO PROJECTS
-            <span>
-              <BiRightArrowAlt />
-            </span>
-          </button>
-        </div>
       </div>
-      <div className="servicegap"></div>
       
       <div>
       {" "}

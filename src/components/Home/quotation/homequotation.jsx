@@ -26,37 +26,36 @@ const Homequotation = () => {
           <input
             type="text"
             placeholder="Enter Your Name"
-            className="inputfeild"
+           
           />
 
 <input
             type="text"
             placeholder="Enter your WhatsApp number"
-            className="inputfeild"
+           
           />
 
 <input
             type="email"
             placeholder="Enter your email ID"
-            className="inputfeild"
+            
           />
 
           <input
             type="text"
             placeholder="Enter your city or town"
-            className="inputfeild"
+           
           />
 
 
           <p className="requsting">
-            <label>Service Required - </label>{" "}
             <select
               id="options"
               value={selectedOption}
               onChange={handleSelectChange}
               required
             >
-              <option value="director">Select a service</option>
+              <option  value="" disabled selected>Service Required</option>
               <option value="Option 1">Home Interiors</option>
               <option value="Option 2">Modular Kitchen</option>
               <option value="Option 3">Office/Commercial Interiors</option>

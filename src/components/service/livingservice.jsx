@@ -162,28 +162,28 @@ export default function Livingservice() {
         <h5 className="smallhead">TV Units</h5>
         <img src={hsimg1} alt="homedesign" />
         <p>Create a focal point in your living room with stylish and functional TV units. Our designs incorporate smart storage options while seamlessly blending with your interior theme.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
     {/*card2*/}
     <div className="homesercardcol">
         <h5 className="smallhead">Book Shelves</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Organize your collection with customized bookshelves that combine functionality and elegance. Choose from minimalist, wall-mounted, or contemporary styles to fit your living space perfectly.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
        {/*card32*/}
        <div className="homesercardcol">
         <h5 className="smallhead">Accent Walls</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Add character and depth to your living room with stunning accent walls. From textured finishes to bold colors, our designs create a striking visual impact while harmonizing with your decor.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
       {/*card32*/}
       <div className="homesercardcol">
         <h5 className="smallhead">Display Cabinets</h5>
         <img src={hsimg3} alt="homedesign" />
         <p>Showcase your collectibles and decor with display cabinets tailored to your needs. Our designs offer sleek storage solutions that keep your living space neat and stylish.</p>
-        <button className='btn2' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
     </div>
 
   </div>
@@ -434,17 +434,8 @@ export default function Livingservice() {
             </div>
           </div>
         </div>
-        <div className="aboutbtn2">
-          {" "}
-          <button className="btn2">
-            PORTFOLIO PROJECTS
-            <span>
-              <BiRightArrowAlt />
-            </span>
-          </button>
-        </div>
       </div>
-      <div className="servicegap"></div>
+
       
       <div>
       {" "}

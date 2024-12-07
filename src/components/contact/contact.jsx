@@ -6,6 +6,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { MdPhone } from "react-icons/md";
 import { TiMessage } from "react-icons/ti";
 import { IoMdLocate } from "react-icons/io";
+import Quoteform from "../formdesign/quoteform";
 
 const contact = () => {
   return (
@@ -55,7 +56,7 @@ const contact = () => {
           </div>
         </div>
         <div className="contact-form">
-          <Contactform />
+          <Quoteform />
         </div>
       </div>
       
@@ -91,7 +92,7 @@ const contact = () => {
             {/*map*/}
             <div className="contact-map">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4016977.097497652!2d71.37534595574378!3d10.51411561476923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0812ffd49cf55b%3A0x64bd90fbed387c99!2sKerala!5e0!3m2!1sen!2sin!4v1727182594277!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119121.65993784422!2d76.88483286798547!3d11.01395778797012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859af2f971cb5%3A0x2fc1c81e183ed282!2sCoimbatore%2C%20Tamil%20Nadu!5e1!3m2!1sen!2sin!4v1733557237904!5m2!1sen!2sin"
                 width="350"
                 height="300"
                 style={{ border: 0 }}
@@ -130,7 +131,7 @@ const contact = () => {
             {/*map*/}
             <div className="contact-map">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4016977.097497652!2d71.37534595574378!3d10.51411561476923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0812ffd49cf55b%3A0x64bd90fbed387c99!2sKerala!5e0!3m2!1sen!2sin!4v1727182594277!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119212.11751895866!2d76.49800711652524!3d10.788128101144977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba86dfa087d31ad%3A0xf542d6eb7a870a56!2sPalakkad%2C%20Kerala!5e1!3m2!1sen!2sin!4v1733557319501!5m2!1sen!2sin"
                 width="350"
                 height="300"
                 style={{ border: 0 }}
@@ -169,7 +170,7 @@ const contact = () => {
             {/*map*/}
             <div className="contact-map">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4016977.097497652!2d71.37534595574378!3d10.51411561476923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0812ffd49cf55b%3A0x64bd90fbed387c99!2sKerala!5e0!3m2!1sen!2sin!4v1727182594277!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239039.504362306!2d75.98906908725321!3d9.982411598271108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e1!3m2!1sen!2sin!4v1733557379178!5m2!1sen!2sin"
                 width="350"
                 height="300"
                 style={{ border: 0 }}
