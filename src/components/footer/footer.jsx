@@ -98,7 +98,7 @@ const Footer = () => {
           <p>Website by <Link to="https://internetspartans.com/">Spartan Technologies</Link></p>
         </div>
         <div className="privacyterms">
-          <p>Privacy Policy | Terms & Condition</p>
+          <p><Link to='/privacypolicy'>Privacy Policy</Link> | Terms & Condition</p>
         </div>
       </div>
     </footer>

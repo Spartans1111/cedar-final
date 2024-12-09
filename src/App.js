@@ -23,6 +23,7 @@ import Cochin from './components/location/Cochin';
 import Palakkad from './components/location/Palakkad';
 import Tiruvalla from './components/location/Tiruvalla';
 import Coimbatore from './components/location/Coimbatore';
+import Privacy from './components/Home/privacyPolicy/privacy';
 
 function App() {
   
@@ -51,6 +52,7 @@ function App() {
         <Route path='/palakkad' element={<Palakkad />} />
         <Route path='/tiruvalla' element={<Tiruvalla />} />
         <Route path='/coimbatore' element={<Coimbatore />} />
+        <Route path='/privacypolicy' element={<Privacy />} />
      </Routes>
      <Footer/>
   </BrowserRouter>

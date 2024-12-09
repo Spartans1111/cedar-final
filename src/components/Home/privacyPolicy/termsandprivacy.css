@@ -1,0 +1,11 @@
+.privacy{
+    padding: 3rem 5rem;
+}
+.privacy p{
+    margin: 1rem 0rem;
+    color: #000;
+    font-weight: 500;
+}
+.privacy ul li{
+    line-height: 1.5rem;
+}
