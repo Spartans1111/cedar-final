@@ -1,7 +1,7 @@
-// src/App.js
 import React from 'react';
 import './App.css'; 
 import { BrowserRouter as Router, Route, BrowserRouter, Routes } from 'react-router-dom'; 
+import { HelmetProvider } from 'react-helmet-async';
 import Header from '../src/components/header/header'; 
 import Home from '../src/components/Home/home';
 import About from '../src/components/about/about';
@@ -26,41 +26,38 @@ import Coimbatore from './components/location/Coimbatore';
 import Privacy from './components/Home/privacyPolicy/privacy';
 
 function App() {
-  
   return (
-    <div className="App">
-     
-      <BrowserRouter>
-      <Scrolltop/>
-      <Header/>
-     <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/Service" element={<Service />} />
-        <Route path="/Packages" element={<Packages />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Gallery" element={<Gallery />} />
-        <Route path="/homeinterior" element={<Homeinterior />} />
-        <Route path="/livingservice" element={<Livingservice />} />
-        <Route path="/officeservice" element={<Officeservice />} />
-        <Route path="/customservice" element={<Customservice />} />
-        <Route path="/modularservice" element={<Modularservice />} />
-        <Route path="/diningroom" element={<Diningroom />} />
-        <Route path="/bedroom" element={<Bedroom />} />
-        <Route path="/kidsroom" element={<Kidsroom />} />
-        <Route path='/location' element={<Cochin />} />
-        <Route path='/palakkad' element={<Palakkad />} />
-        <Route path='/tiruvalla' element={<Tiruvalla />} />
-        <Route path='/coimbatore' element={<Coimbatore />} />
-        <Route path='/privacypolicy' element={<Privacy />} />
-     </Routes>
-     <Footer/>
-  </BrowserRouter>
-     
-      
-    </div>
+    <HelmetProvider>
+      <div className="App">
+        <BrowserRouter>
+          <Scrolltop/>
+          <Header/>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about-cedar-interiors" element={<About />} />
+            <Route path="/Service" element={<Service />} />
+            <Route path="/2bhk-3bhk-interior-packages" element={<Packages />} />
+            <Route path="/contact-us" element={<Contact />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/home-interiors" element={<Homeinterior />} />
+            <Route path="/living-room-interiors" element={<Livingservice />} />
+            <Route path="/office-interiors" element={<Officeservice />} />
+            <Route path="/custom-interior-units" element={<Customservice />} />
+            <Route path="/modular-kitchens" element={<Modularservice />} />
+            <Route path="/dining-room-interiors" element={<Diningroom />} />
+            <Route path="/bedroom-interiors" element={<Bedroom />} />
+            <Route path="/kids-room-interiors" element={<Kidsroom />} />
+            <Route path='/interior-designers-cochin' element={<Cochin />} />
+            <Route path='/interior-designers-palakkad' element={<Palakkad />} />
+            <Route path='/interior-designers-tiruvalla' element={<Tiruvalla />} />
+            <Route path='/interior-designers-coimbatore' element={<Coimbatore />} />
+            <Route path='/privacypolicy' element={<Privacy />} />
+          </Routes>
+          <Footer/>
+        </BrowserRouter>
+      </div>
+    </HelmetProvider>
   );
 }
 
 export default App;
-

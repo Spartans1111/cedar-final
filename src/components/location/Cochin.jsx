@@ -33,6 +33,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Testimonial from "../Home/powerfull/powerfull";
 import Popup from '../pup/popup';
+import { Helmet } from "react-helmet-async";
 
 export default function Cochin() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -86,6 +87,10 @@ export default function Cochin() {
   };
   return (
     <>
+    <Helmet>
+        <title>Interior Designers in Cochin - Cedar Interiors</title>
+        <meta name="description" content="Explore the best interior design services in Cochin with Cedar Interiors. From modular kitchens to bespoke home interiors, let us redefine your spaces." />
+      </Helmet>
     <div className="service-main">
     <div className="servicehero"></div>
     <div className="servicehero1">

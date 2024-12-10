@@ -33,6 +33,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Testimonial from "../Home/powerfull/powerfull";
 import Popup from '../pup/popup';
+import { Helmet } from "react-helmet-async";
 
 export default function Tiruvalla() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -87,6 +88,10 @@ export default function Tiruvalla() {
 
   return (
     <>
+    <Helmet>
+        <title>Interior Designers in Tiruvalla - Cedar Interiors</title>
+        <meta name="description" content="Redesign your interiors in Tiruvalla with Cedar Interiors. We create modern, functional spaces with bespoke designs for every corner of your home." />
+    </Helmet>
  <div className="service-main">
       <div className="servicehero"></div>
       <div className="servicehero1">

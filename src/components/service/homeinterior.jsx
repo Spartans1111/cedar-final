@@ -34,6 +34,7 @@ import "swiper/css/navigation";
 import Testimonial from "../Home/powerfull/powerfull";
 import Popup from '../pup/popup';
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet-async";
 
 export default function Homeinterior() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -87,6 +88,11 @@ export default function Homeinterior() {
 
   return (
     <>
+    <Helmet>
+        <title>Home Interiors - Cedar Interiors</title>
+        <meta name="description" content="Explore our comprehensive home interior solutions. From modular kitchens to living rooms, we craft functional and stylish spaces tailored to your needs.
+" />
+      </Helmet>
       <div className="service-main">
       <div className="servicehero"></div>
       <div className="servicehero1">

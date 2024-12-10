@@ -7,9 +7,15 @@ import { MdPhone } from "react-icons/md";
 import { TiMessage } from "react-icons/ti";
 import { IoMdLocate } from "react-icons/io";
 import Quoteform from "../formdesign/quoteform";
+import { Helmet } from "react-helmet-async";
 
 const contact = () => {
   return (
+    <>
+     <Helmet>
+        <title>Contact Us - Cedar Interiors</title>
+        <meta name="description" content="Get in touch with Cedar Interiors. Call, email, or visit us for expert interior design services that redefine your space." />
+      </Helmet>
     <div className="contact">
       <div className="contacthero"></div>
       <div className="contact-top">
@@ -189,6 +195,7 @@ const contact = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

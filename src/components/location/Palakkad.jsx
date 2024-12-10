@@ -33,6 +33,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Testimonial from "../Home/powerfull/powerfull";
 import Popup from '../pup/popup';
+import { Helmet } from "react-helmet-async";
 
 export default function Palakkad() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -86,6 +87,11 @@ export default function Palakkad() {
   };
   return (
     <>
+    <Helmet>
+        <title>Interior Designers in Palakkad - Cedar Interiors</title>
+        <meta name="description" content="Get professional interior design services in Palakkad with Cedar Interiors. Transform your home with customized designs that blend style and functionality.
+" />
+      </Helmet>
   <div className="service-main">
       <div className="servicehero"></div>
       <div className="servicehero1">

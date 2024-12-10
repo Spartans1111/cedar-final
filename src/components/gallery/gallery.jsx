@@ -6,6 +6,7 @@ import Gallery1 from './gallery1/gallery1';
 import Gallery2 from './gallery2/gallery2';
 import Gallery3 from './gallery3/gallery3';
 import Popup from '../pup/popup';
+import { Helmet } from "react-helmet-async";
 
 const Gallery = () => {
     const [showPopup, setShowPopup] = useState(false); // State to control popup visibility
@@ -18,6 +19,11 @@ const Gallery = () => {
       setShowPopup(false); // Function to close the popup
     };
   return (
+    <>
+      <Helmet>
+        <title>Gallery - Cedar Interiors</title>
+        <meta name="description" content="Browse Cedar Interiors’ portfolio. Explore inspiring living rooms, modular kitchens, bedrooms, and custom interiors from our past projects." />
+      </Helmet>
     <div className='gallery'>
        <div className="galleryhero">
         <h1>GAllery</h1>
@@ -108,6 +114,7 @@ const Gallery = () => {
 
        <Popup showPopup={showPopup} closePopup={closePopup} />
     </div>
+    </>
   )
 }
 

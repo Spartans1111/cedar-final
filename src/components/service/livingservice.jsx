@@ -33,6 +33,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Testimonial from "../Home/powerfull/powerfull";
 import Popup from '../pup/popup';
+import { Helmet } from "react-helmet-async";
 
 export default function Livingservice() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -87,6 +88,11 @@ export default function Livingservice() {
 
   return (
     <>
+    <Helmet>
+        <title>Living Room Interiors - Cedar Interiors</title>
+        <meta name="description" content="Reimagine your living space with Cedar Interiors. From TV units to accent walls and bookshelves, we create living rooms that inspire comfort and style.
+" />
+      </Helmet>
       <div className="service-main">
       <div className="servicehero"></div>
       <div className="servicehero1">

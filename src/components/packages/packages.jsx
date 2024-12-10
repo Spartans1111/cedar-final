@@ -12,6 +12,7 @@ import abimg2 from "../../images/c1 (2).png";
 import abimg3 from "../../images/c1 (3).png";
 import abimg4 from "../../images/c1 (4).png";
 import Accordion from '../Home/accordian/Accordion'; 
+import { Helmet } from "react-helmet-async";
 const packages = () => {
   const items = [
     {
@@ -36,6 +37,11 @@ const packages = () => {
   },
   ];
   return (
+<>
+<Helmet>
+        <title>2BHK & 3BHK Interior Packages - Cedar Interiors</title>
+        <meta name="description" content="Explore our affordable 2BHK & 3BHK interior packages at Cedar Interiors. Fully customized solutions for bedrooms, kitchens, and living rooms designed for you." />
+      </Helmet>
     <div>
         <div className="packagehero"></div>
         <div className="pakageshero1">
@@ -149,6 +155,7 @@ const packages = () => {
     </div>
 
         </div>
+        </>
   )
 }
 

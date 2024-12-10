@@ -34,6 +34,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Testimonial from "../Home/powerfull/powerfull";
 import Popup from '../pup/popup';
+import { Helmet } from "react-helmet-async";
 
 export default function Diningroom() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -91,6 +92,11 @@ export default function Diningroom() {
 
   return (
     <>
+    <Helmet>
+        <title>Dining Room Interiors - Cedar Interiors</title>
+        <meta name="description" content="Elevate your dining area with Cedar Interiors. From premium tables to chairs and sideboards, we deliver elegant designs for your dining space.
+" />
+      </Helmet>
       <div className="service-main">
       <div className="servicehero"></div>
       <div className="servicehero1">

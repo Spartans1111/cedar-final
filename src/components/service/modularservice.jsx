@@ -34,6 +34,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Testimonial from "../Home/powerfull/powerfull";
 import Popup from '../pup/popup';
+import { Helmet } from "react-helmet-async";
 
 export default function Modularservice() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -91,6 +92,10 @@ export default function Modularservice() {
 
   return (
     <>
+    <Helmet>
+        <title>Modular Kitchens - Cedar Interiors</title>
+        <meta name="description" content="Upgrade your cooking experience with Cedar Interiors. Discover modular kitchens with island, U-shaped, or straight layouts designed for efficiency and beauty." />
+      </Helmet>
       <div className="service-main">
       <div className="servicehero"></div>
       <div className="servicehero1">

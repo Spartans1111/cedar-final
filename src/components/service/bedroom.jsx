@@ -34,6 +34,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Testimonial from "../Home/powerfull/powerfull";
 import Popup from '../pup/popup';
+import { Helmet } from "react-helmet-async";
 
 export default function Bedroom() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -91,6 +92,10 @@ export default function Bedroom() {
 
   return (
     <>
+    <Helmet>
+        <title>Bedroom Interiors - Cedar Interiors</title>
+        <meta name="description" content="Create your dream bedroom with Cedar Interiors. Explore customized wardrobes, dressing units, headboards, and bed frames for a serene retreat." />
+      </Helmet>
       <div className="service-main">
       <div className="servicehero"></div>
       <div className="servicehero1">

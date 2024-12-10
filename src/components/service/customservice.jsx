@@ -33,6 +33,7 @@
     import "swiper/css/navigation";
     import Testimonial from "../Home/powerfull/powerfull";
     import Popup from '../pup/popup';
+    import { Helmet } from "react-helmet-async";
 
     export default function Customservice() {
       const [currentIndex, setCurrentIndex] = useState(0);
@@ -90,6 +91,11 @@
 
       return (
         <>
+        <Helmet>
+        <title>Custom Interior Units - Cedar Interiors</title>
+        <meta name="description" content="Discover unique solutions with Cedar Interiors. From modern bathrooms to home bars and aesthetic TV units, tailor your space with our expertise.
+" />
+      </Helmet>
           <div className="service-main">
           <div className="servicehero"></div>
           <div className="servicehero1">

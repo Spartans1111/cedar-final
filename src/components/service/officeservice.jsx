@@ -34,6 +34,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Testimonial from "../Home/powerfull/powerfull";
 import Popup from '../pup/popup';
+import { Helmet } from "react-helmet-async";
 
 export default function Officeservice() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -91,6 +92,10 @@ export default function Officeservice() {
 
   return (
     <>
+    <Helmet>
+        <title>Office Interiors - Cedar Interiors</title>
+        <meta name="description" content="Transform your workspace with Cedar Interiors. Offering workstations, reception desks, and conference tables to enhance productivity and style." />
+      </Helmet>
       <div className="service-main">
       <div className="servicehero"></div>
       <div className="servicehero1">

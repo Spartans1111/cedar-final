@@ -50,8 +50,8 @@ const Header = () => {
             HOME
           </Link>
         </li>
-        <li className={isActive("/about") ? "active" : ""}>
-          <Link to="/about" onClick={closeMenu}>
+        <li className={isActive("/about-cedar-interiors") ? "active" : ""}>
+          <Link to="/about-cedar-interiors" onClick={closeMenu}>
             OUR STORY
           </Link>
         </li>
@@ -61,36 +61,36 @@ const Header = () => {
           </Link>
           {/* Dropdown toggle for mobile */}
           <div className={`dropdown-content ${dropdownOpen ? "show" : ""}`}>
-            <div className={isActive("/homeinterior") ? "active" : ""}>
-              <Link to="/homeinterior" onClick={closeMenu}>
+            <div className={isActive("/home-interiors") ? "active" : ""}>
+              <Link to="/home-interiors" onClick={closeMenu}>
                 {" "}
                 HOME INTERIORS{" "}
               </Link>
             </div>
-            <div className={isActive("/livingservice") ? "active" : ""}>
-              <Link to="/livingservice" onClick={closeMenu}>
+            <div className={isActive("/living-room-interiors") ? "active" : ""}>
+              <Link to="/living-room-interiors" onClick={closeMenu}>
                 LIVING ROOM INTERIORS
               </Link>
             </div>
-            <div className={isActive("/modularservice") ? "active" : ""}>
-              <Link to="/modularservice" onClick={closeMenu}>MODULAR KITCHEN</Link>
+            <div className={isActive("/modular-kitchens") ? "active" : ""}>
+              <Link to="/modular-kitchens" onClick={closeMenu}>MODULAR KITCHEN</Link>
             </div>
-            <div className={isActive("/bedroom") ? "active" : ""}>
-              <Link to="/bedroom" onClick={closeMenu}>BED ROOM INTERIORS</Link>
+            <div className={isActive("/bedroom-interiors") ? "active" : ""}>
+              <Link to="/bedroom-interiors" onClick={closeMenu}>BED ROOM INTERIORS</Link>
             </div>
-            <div className={isActive("/diningroom") ? "active" : ""}>
-              <Link to="/diningroom" onClick={closeMenu}>DINING ROOM INTERIORS</Link>
+            <div className={isActive("/dining-room-interiors") ? "active" : ""}>
+              <Link to="/dining-room-interiors" onClick={closeMenu}>DINING ROOM INTERIORS</Link>
             </div>
-            <div className={isActive("/kidsroom") ? "active" : ""}>
-              <Link to="/kidsroom" onClick={closeMenu}>KIDS ROOM INTERIORS</Link>
+            <div className={isActive("/kids-room-interiors") ? "active" : ""}>
+              <Link to="/kids-room-interiors" onClick={closeMenu}>KIDS ROOM INTERIORS</Link>
             </div>
-            <div className={isActive("/officeservice") ? "active" : ""}>
-              <Link to="/officeservice" onClick={closeMenu}>
+            <div className={isActive("/office-interiors") ? "active" : ""}>
+              <Link to="/office-interiors" onClick={closeMenu}>
                 OFFICE ROOM INTERIORS
               </Link>
             </div>
-            <div className={isActive("/customservice") ? "active" : ""}>
-              <Link to="/customservice" onClick={closeMenu}>
+            <div className={isActive("/custom-interior-units") ? "active" : ""}>
+              <Link to="/custom-interior-units" onClick={closeMenu}>
                 CUSTOM INTERIOR UNITS
               </Link>
             </div>
@@ -102,25 +102,25 @@ const Header = () => {
           </Link>
           {/* Dropdown toggle for mobile */}
           <div className={`dropdown-content ${dropdownOpen ? "show" : ""}`}>
-            <div className={isActive("/location") ? "active" : ""}>
-              <Link to="/location" onClick={closeMenu}>
+            <div className={isActive("/interior-designers-cochin") ? "active" : ""}>
+              <Link to="/interior-designers-cochin" onClick={closeMenu}>
                 {" "}
                 COCHIN{" "}
               </Link>
             </div>
-            <div className={isActive("/palakkad") ? "active" : ""}>
-              <Link to='/palakkad' onClick={closeMenu}>PALAKKAD</Link>
+            <div className={isActive("/interior-designers-palakkad") ? "active" : ""}>
+              <Link to='/interior-designers-palakkad' onClick={closeMenu}>PALAKKAD</Link>
             </div>
-            <div className={isActive("/coimbatore") ? "active" : ""}>
-              <Link to='/coimbatore' onClick={closeMenu}>COIMBATORE</Link>
+            <div className={isActive("/interior-designers-coimbatore") ? "active" : ""}>
+              <Link to='/interior-designers-coimbatore' onClick={closeMenu}>COIMBATORE</Link>
             </div>
-            <div className={isActive("/tiruvalla") ? "active" : ""}>
-              <Link to='/tiruvalla' onClick={closeMenu}>TIRUVALLA</Link>
+            <div className={isActive("/interior-designers-tiruvalla") ? "active" : ""}>
+              <Link to='/interior-designers-tiruvalla' onClick={closeMenu}>TIRUVALLA</Link>
             </div>
           </div>
         </li>
-        <li className={isActive("/packages") ? "active" : ""}>
-          <Link to="/packages" onClick={closeMenu}>
+        <li className={isActive("/2bhk-3bhk-interior-packages") ? "active" : ""}>
+          <Link to="/2bhk-3bhk-interior-packages" onClick={closeMenu}>
             OUR PACKAGES
           </Link>
         </li>
@@ -129,8 +129,8 @@ const Header = () => {
             GALLERY
           </Link>
         </li>
-        <li className={isActive("/contact") ? "active" : ""}>
-          <Link to="/contact" onClick={closeMenu}>
+        <li className={isActive("/contact-us") ? "active" : ""}>
+          <Link to="/contact-us" onClick={closeMenu}>
             CONTACT US
           </Link>
         </li>

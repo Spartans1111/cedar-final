@@ -43,15 +43,15 @@ const Footer = () => {
         <div className="footer-bottom-col col2">
           <h6>Our Services</h6>
           <ul>
-            <li><Link to="/homeinterior">Home Interiors</Link></li>
-            <li> <Link to="/packages">2 & 3 BHK Interior Packages</Link></li>
-            <li><Link to="/livingservice">Living Room Interiors</Link></li>
-            <li><Link to="/modularservice">Modular Kitchens</Link></li>
-            <li><Link to="/bedroom">Bedroom Interiors</Link></li>
-            <li><Link to="/diningroom">Dining Room Interiors</Link></li>
-            <li><Link to="/kidsroom">Kids Room Interiors</Link></li>
-            <li><Link to="/officeservice">Office Interiors</Link></li>
-            <li><Link to="/customservice">Custom Interior Units</Link></li>
+            <li><Link to="/home-interiors">Home Interiors</Link></li>
+            <li> <Link to="/2bhk-3bhk-interior-packages">2 & 3 BHK Interior Packages</Link></li>
+            <li><Link to="/living-room-interiors">Living Room Interiors</Link></li>
+            <li><Link to="/modular-kitchens">Modular Kitchens</Link></li>
+            <li><Link to="/bedroom-interiors">Bedroom Interiors</Link></li>
+            <li><Link to="/dining-room-interiors">Dining Room Interiors</Link></li>
+            <li><Link to="/kids-room-interiors">Kids Room Interiors</Link></li>
+            <li><Link to="/office-interiors">Office Interiors</Link></li>
+            <li><Link to="/custom-interior-units">Custom Interior Units</Link></li>
           </ul>
         </div>
         {/* col3 */}

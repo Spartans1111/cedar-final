@@ -24,7 +24,7 @@ const design = () => {
         <div className="grid grid1">
           <img src={img3} alt="design" />
           <div className="design-btn">
-            <button className="btn2"><Link to="/livingservice">
+            <button className="btn2"><Link to="/living-room-interiors">
               Living Room Interiors<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>
@@ -33,7 +33,7 @@ const design = () => {
           {" "}
           <img src={img4} alt="design" />
           <div className="design-btn">
-            <button className="btn2"> <Link to="/modularservice">
+            <button className="btn2"> <Link to="/modular-kitchens">
               Modular Kitchenss<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>{" "}
@@ -43,14 +43,14 @@ const design = () => {
           <div className="bedroomimg">
             <img src={img5} alt="design" />
             <div className="design-btn">
-              <button className="btn2"><Link to="/bedroom">
+              <button className="btn2"><Link to="/bedroom-interiors">
               Bedroom Interiors<span>{<GoArrowRight />}</span></Link>
               </button>
             </div>
           </div>
           <div className="designmore">
             <h3>10+</h3>
-            <p>Custom Interior Solutions</p> <Link to="/customservice">
+            <p>Custom Interior Solutions</p> <Link to="/custom-interior-units">
             <span className="designmorearrow">{<GoArrowRight />}</span></Link>
           </div>
         </div>
@@ -58,7 +58,7 @@ const design = () => {
           {" "}
           <img src={img2} alt="design" />
           <div className="design-btn">
-            <button className="btn2">  <Link to="/officeservice" >
+            <button className="btn2">  <Link to="/office-interiors" >
             Office Interiors<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>{" "}
@@ -67,7 +67,7 @@ const design = () => {
           {" "}
           <img src={img1} alt="design" />
           <div className="design-btn">
-            <button className="btn2"> <Link to="/diningroom">
+            <button className="btn2"> <Link to="/dining-room-interiors">
             Dining Room Interiors<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>
@@ -80,7 +80,7 @@ const design = () => {
         <div className="design-card">
           <img src={img3} alt="design" />
           <div className="design-btn">
-            <button className="btn2"><Link to="/livingservice">
+            <button className="btn2"><Link to="/living-room-interiors">
               Living room design<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>
@@ -89,7 +89,7 @@ const design = () => {
           {" "}
           <img src={img4} alt="design" />
           <div className="design-btn">
-            <button className="btn2"><Link to="/modularservice">
+            <button className="btn2"><Link to="/modular-kitchens">
               Kitchan designs<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>{" "}
@@ -99,7 +99,7 @@ const design = () => {
           
             <img src={img5} alt="design" />
             <div className="design-btn">
-              <button className="btn2"><Link to="/bedroom">
+              <button className="btn2"><Link to="/bedroom-interiors">
                 Bedroom designs<span>{<GoArrowRight />}</span></Link>
               </button>
             </div>
@@ -108,7 +108,7 @@ const design = () => {
           {" "}
           <img src={img2} alt="design" />
           <div className="design-btn">
-            <button className="btn2"> <Link to="/officeservice" >
+            <button className="btn2"> <Link to="/office-interiors" >
               Office designs<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>{" "}
@@ -117,7 +117,7 @@ const design = () => {
           {" "}
           <img src={img1} alt="design" />
           <div className="design-btn">
-            <button className="btn2"><Link to="/diningroom">
+            <button className="btn2"><Link to="/dining-room-interiors">
               Dining designs<span>{<GoArrowRight />}</span></Link>
             </button>
           </div>

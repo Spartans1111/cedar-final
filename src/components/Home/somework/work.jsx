@@ -22,25 +22,25 @@ const work = () => {
         <div className="workimgcol">
           <img className="black-image" src={work1black} alt="Kitchen Designs Black" />
           <img className="normal-image" src={work1} alt="Kitchen Designs Normal" />
-          <div className="workcontent"><Link to="/homeinterior"> Home Interiors</Link></div>
+          <div className="workcontent"><Link to="/home-interiors"> Home Interiors</Link></div>
         </div>
 
         <div className="workimgcol">
           <img className="black-image" src={work2black} alt="Bedroom Designs Black" />
           <img className="normal-image" src={work2} alt="Bedroom Designs Normal" />
-          <div className="workcontent"><Link to="/modularservice">Modular Kitchens</Link></div>
+          <div className="workcontent"><Link to="/modular-kitchens">Modular Kitchens</Link></div>
         </div>
 
         <div className="workimgcol">
           <img className="black-image" src={work3black} alt="Living Designs Black" />
           <img className="normal-image" src={work3} alt="Living Designs Normal" />
-          <div className="workcontent"><Link to="/officeservice">Office Interiors</Link></div>
+          <div className="workcontent"><Link to="/office-interiors">Office Interiors</Link></div>
         </div>
 
         <div className="workimgcol">
           <img className="black-image" src={work4black} alt="Dining Designs Black" />
           <img className="normal-image" src={work4} alt="Dining Designs Normal" />
-          <div className="workcontent"><Link to="/customservice">Custom Designed Interior Units</Link></div>
+          <div className="workcontent"><Link to="/custom-interior-units">Custom Designed Interior Units</Link></div>
         </div>
       </div>
     </div>

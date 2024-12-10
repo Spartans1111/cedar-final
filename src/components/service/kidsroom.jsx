@@ -34,6 +34,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Testimonial from "../Home/powerfull/powerfull";
 import Popup from '../pup/popup';
+import { Helmet } from "react-helmet-async";
 
 export default function Kidsroom() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -91,6 +92,10 @@ export default function Kidsroom() {
 
   return (
     <>
+    <Helmet>
+        <title>Kids Room Interiors - Cedar Interiors</title>
+        <meta name="description" content="Design a playful and functional room for your kids with Cedar Interiors. From study tables to bunk beds and toy storage, we have it all." />
+      </Helmet>
       <div className="service-main">
       <div className="servicehero"></div>
       <div className="servicehero1">

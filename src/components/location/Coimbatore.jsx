@@ -33,6 +33,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Testimonial from "../Home/powerfull/powerfull";
 import Popup from '../pup/popup';
+import { Helmet } from "react-helmet-async";
 
 export default function Coimbatore() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -87,6 +88,10 @@ export default function Coimbatore() {
 
   return (
     <>
+    <Helmet>
+        <title>Interior Designers in Coimbatore - Cedar Interiors</title>
+        <meta name="description" content="Discover premium interior design services in Coimbatore with Cedar Interiors. From modular kitchens to living rooms, redefine your interiors with us." />
+      </Helmet>
 <div className="service-main">
       <div className="servicehero"></div>
       <div className="servicehero1">

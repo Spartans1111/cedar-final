@@ -4,7 +4,6 @@ import HeroSlider from './heroslider/heroslider.jsx';
 import Homequotation from './quotation/homequotation.jsx';
 import Package from '../package/package.jsx';
 import Design from '../Home/homedesign/design.jsx';
-import Chooseus from '../Home/whychose/choose.jsx';
 import Work from '../Home/somework/work.jsx';
 import Accordian from '../Home/accordian/accordian.jsx';
 import Success from '../Home/success/success.jsx';
@@ -14,12 +13,17 @@ import abimg1 from "../../images/c1 (1).png";
 import abimg2 from "../../images/c1 (2).png";
 import abimg3 from "../../images/c1 (3).png";
 import abimg4 from "../../images/c1 (4).png";
-import { BiRightArrowAlt } from "react-icons/bi";
+import { Helmet } from "react-helmet-async";
 
 function Home() {
  
   return (
     <>
+    <Helmet>
+        <title>Interior Designers in Kerala | Cedar Interiors</title>
+        <meta name="description" content="Welcome to Cedar Interiors. Redefining interiors with bespoke designs for modular kitchens, living rooms, and more. Elevate your living experience today." />
+      </Helmet>
+
   <HeroSlider/>
     <Exprience/>
     <Homequotation/>
