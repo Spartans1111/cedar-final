@@ -127,15 +127,6 @@ const packages = () => {
                 </div>
               </div>
             </div>
-            <div className="aboutbtn2">
-              {" "}
-              <button className="btn2">
-                PORTFOLIO PROJECTS
-                <span>
-                  <BiRightArrowAlt />
-                </span>
-              </button>
-            </div>
           </div>
 
 <Tesimonial/>
