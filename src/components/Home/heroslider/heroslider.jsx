@@ -34,7 +34,7 @@ function HeroSlider() {
               <div className="herocontent">
                 <p>Luxury Home Interiors
                 </p>
-                <h4>Cedar Interiors creates stunning and functional spaces that match your lifestyle. Let’s bring your vision to life.</h4>
+                <h4>Stunning spaces designed for your lifestyle</h4>
              </div>
           </div>         
         </SwiperSlide>
@@ -43,8 +43,7 @@ function HeroSlider() {
               <img src={banner3} alt="" />
               <div className="herocontent">
                 <p>Modular Kitchens</p>
-                <h4>Transform Your Space with cedar’s
-                Expert Design Consulting </h4>
+                <h4>Modern kitchens tailored to your needs</h4>
              </div>
           </div>
         </SwiperSlide>
@@ -53,8 +52,7 @@ function HeroSlider() {
               <img src={banner1} alt="" />
               <div className="herocontent">
                 <p>Custom Interior Unites</p>
-                <h4>Transform Your Space with cedar’s
-                Expert Design Consulting </h4>
+                <h4>Personalized interiors, your style, your space</h4>
              </div>
           </div>
         </SwiperSlide>
@@ -63,8 +61,7 @@ function HeroSlider() {
               <img src={banner4} alt="" />
               <div className="herocontent">
                 <p>Office Interiors</p>
-                <h4>Transform Your Space with cedar’s
-                Expert Design Consulting </h4>
+                <h4>Stylish, productive offices crafted for you</h4>
              </div>
           </div>
         </SwiperSlide>
@@ -73,8 +70,7 @@ function HeroSlider() {
               <img src={banner4} alt="" />
               <div className="herocontent">
                 <p>Exclusive Packages</p>
-                <h4>Transform Your Space with cedar’s
-                Expert Design Consulting </h4>
+                <h4>Affordable packages, quality interiors without compromise</h4>
              </div>
           </div>
         </SwiperSlide>

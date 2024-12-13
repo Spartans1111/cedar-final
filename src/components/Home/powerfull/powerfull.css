@@ -194,12 +194,19 @@
   height: 100%;
   width: 100%;
   z-index: 5;
+  gap: 5px;
 }
 .card-authur .author-name {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
+
+.card-authur .autor-img img{
+  width: 45px;
+  height: 45px;
+}
+
 .card-authur p {
   color: #292737;
   font-family: "Montserrat", sans-serif;

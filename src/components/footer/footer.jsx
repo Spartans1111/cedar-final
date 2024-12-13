@@ -75,8 +75,8 @@ const Footer = () => {
         <div className="footer-bottom-col col4">
           <h6>FOLLOW US ON!</h6>
           <div className="social-icons">
-            <img src={insta} alt="insa" />
-            <img src={fb} alt="insa" />
+            <a href="https://www.instagram.com/_cedarinteriors_/"><img src={insta} alt="insa" /></a>
+            <a href="https://www.facebook.com/people/Cedar-Interiors-Cedar-Interiors/pfbid02dVK4gy1WjT8Rp5WyCKc5wqeEy67hpFe7EA45rVTmdE1Ydf9ELWjXPNzrkZ5nBgVyl/"><img src={fb} alt="insa" /></a>
             <img src={tw} alt="insa" />
           </div>
           <h4>STAY TUNED!</h4>
@@ -98,7 +98,7 @@ const Footer = () => {
           <p>Website by <Link to="https://internetspartans.com/">Spartan Technologies</Link></p>
         </div>
         <div className="privacyterms">
-          <p><Link to='/privacypolicy'>Privacy Policy</Link> | <Link to=''>Terms & Condition</Link></p>
+          <p><Link to='/privacypolicy'>Privacy Policy</Link> | <Link to='/terms&condition'>Terms & Condition</Link></p>
         </div>
       </div>
     </footer>

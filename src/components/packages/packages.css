@@ -48,6 +48,7 @@ font-size: 14px;
   @media screen and (max-width:1024px){
     .packkageshero1col:last-child{
         margin-right: 0;
+        margin-top: 25px;
       }
   }
   

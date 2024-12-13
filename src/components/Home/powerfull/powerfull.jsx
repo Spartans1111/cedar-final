@@ -7,6 +7,8 @@ import author2 from "../../../images/testimonial/Ponmanikavel L.png";
 import testi1 from "../../../images/testimonial/interior1.png";
 import testi2 from "../../../images/testimonial/interior2.png";
 import testi3 from "../../../images/testimonial/interior3.png";
+import user from "../../../images/testimonial/male.png";
+import user1 from "../../../images/testimonial/female.png";
 import { FaStar } from "react-icons/fa";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -88,7 +90,7 @@ const powerfull = () => {
                   <div className="card-author-inner">
                     <div class="autor-img">
                       {" "}
-                      <img src={author} alt="" />
+                      <img src={user} alt="" />
                     </div>
                     <div class="author-name">
                       <p>Ravi Krishnan</p>
@@ -128,7 +130,7 @@ const powerfull = () => {
                   <div className="card-author-inner">
                     <div class="autor-img">
                       {" "}
-                      <img src={author1} alt="" />
+                      <img src={user1} alt="" />
                     </div>
                     <div class="author-name">
                       <p>Annamma Joseph</p>
@@ -168,7 +170,7 @@ const powerfull = () => {
                   <div className="card-author-inner">
                     <div class="autor-img">
                       {" "}
-                      <img src={author2} alt="" />
+                      <img src={user} alt="" />
                     </div>
                     <div class="author-name">
                       <p>Farhan Mohammed</p>
@@ -208,7 +210,7 @@ const powerfull = () => {
                   <div className="card-author-inner">
                     <div class="autor-img">
                       {" "}
-                      <img src={author1} alt="" />
+                      <img src={user} alt="" />
                     </div>
                     <div class="author-name">
                       <p>Jayanth Nair</p>

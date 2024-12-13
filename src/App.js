@@ -24,6 +24,7 @@ import Palakkad from './components/location/Palakkad';
 import Tiruvalla from './components/location/Tiruvalla';
 import Coimbatore from './components/location/Coimbatore';
 import Privacy from './components/Home/privacyPolicy/privacy';
+import Termsandcondition from './components/Home/privacyPolicy/termsandcondition';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
             <Route path='/interior-designers-tiruvalla' element={<Tiruvalla />} />
             <Route path='/interior-designers-coimbatore' element={<Coimbatore />} />
             <Route path='/privacypolicy' element={<Privacy />} />
+            <Route path='/terms&condition' element={<Termsandcondition />} />
           </Routes>
           <Footer/>
         </BrowserRouter>

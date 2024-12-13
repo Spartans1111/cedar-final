@@ -62,7 +62,7 @@
         order: 4;
     }
     .pakageshero1 {
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 35px;
         align-items: center;
     }
@@ -86,7 +86,7 @@
     position: absolute;
     top: 95%;
     z-index: 5;
-    right: 50%;
+    right: 10%;
     margin-top: 0px;
 }
 .detailofpackage .detailsofpackagecontent {
@@ -129,10 +129,13 @@
         width: 100%;
     }
     .package-blurbs{
-        padding: 1rem 1rem;
+        padding: 1rem 1.3rem;
     }
     .detailsofpackagecontent .price {
         margin-top: 15px;
         margin-left: 0px;
+    }
+    .detailofpackage .detailsofbackageimg .bhk {
+        top: 90%;
     }
 }
