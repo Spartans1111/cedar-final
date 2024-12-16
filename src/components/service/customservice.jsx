@@ -328,53 +328,53 @@
     
             {/* mobile*/}
     
-            <div className="success-card-mob">
-              <div class="item">
-                  {" "}
-                  <img src={success1} alt="" />
-                  <div className="blurb">
-                  <h4>CONCEPT</h4>
-                  <p>
-                    In publishing and graphic design, Lorem ipsum is a placeholder
-                  </p>
-                </div>
-              </div>
-    
-    
-    
-              <div class="item">
-                  {" "}
-                  <img src={success2} alt="" />
-                  <div className="blurb">
-                    <h4>IDEALOGY</h4>
-                    <p>
-                      In publishing and graphic design, Lorem ipsum is a placeholder
-                    </p>
-                  </div>
-              </div>
-    
-              <div class="item">
-                  {" "}
-                  <img src={success3} alt="" />
-                  <div className="blurb">
-                  <h4>DESIGN</h4>
-                  <p>
-                    In publishing and graphic design, Lorem ipsum is a placeholder
-                  </p>
-                </div>
-              </div>
-    
-              <div class="item">
-                  {" "}
-                  <img src={success4} alt="" />
-                  <div className="blurb">
-                  <h4>EXECUTION</h4>
-                  <p>
-                    In publishing and graphic design, Lorem ipsum is a placeholder
-                  </p>
-                </div>
-              </div>
+        <div className="success-card-mob">
+          <div class="item">
+              {" "}
+              <img src={success1} alt="" />
+              <div className="blurb">
+              <h4>INSPIRATION</h4>
+              <p>
+              We start by drawing inspiration from your vision and lifestyle, ensuring every detail reflects your unique taste.
+              </p>
             </div>
+          </div>
+
+
+
+          <div class="item">
+              {" "}
+              <img src={success2} alt="" />
+              <div className="blurb">
+                <h4>PLANNING</h4>
+                <p>
+                Strategizing and mapping out the perfect balance of form and function to bring your ideas to life.
+                </p>
+              </div>
+          </div>
+
+          <div class="item">
+              {" "}
+              <img src={success3} alt="" />
+              <div className="blurb">
+              <h4>CRAFTSMANSHIP</h4>
+              <p>
+              Bringing designs to reality through innovative techniques and skilled artistry for flawless interiors.
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+              {" "}
+              <img src={success4} alt="" />
+              <div className="blurb">
+              <h4>DELIVERY</h4>
+              <p>
+              Completing your dream space with precision, on-time execution, and uncompromised quality.
+              </p>
+            </div>
+          </div>
+        </div>
           </div>
         </div>
         <div className="aboutchoose">
