@@ -12,7 +12,7 @@ const success = () => {
         <p className="build-success">The Path to Your Perfect Space</p>
         <h2 className="header2">Our Success Route</h2>
         <p className="sucees-elevate">
-          Elevate your spaces with Vedar Designs & Interior Fitouts L.L.C.
+          Elevate your spaces with Cedar Interiors.
           Experience the fusion of your aspirations with our expertise, creating
           interiors that speak volumes. Your space, our dedication.
         </p>

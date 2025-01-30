@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css";
-import contactimg from "../../images/contact/cantactimg.png";
+import contactimg from "../../images/contact/ContactUs.jpeg";
 import Contactform from "../formdesign/contactform";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdPhone } from "react-icons/md";
@@ -42,7 +42,7 @@ const contact = () => {
                     <i>{<TiMessage />}</i>
                     <div className="con-blurb-content">
                       <h4>MAIL ID</h4>
-                      <p>contact@cedarinteriors.in</p>
+                      <p><a href="mailto:info@cedarinteriors.in">info@cedarinteriors.in</a></p>
                     </div>
                   </div>
 
@@ -50,11 +50,11 @@ const contact = () => {
                     <i>{<MdPhone />}</i>
                     <div className="con-blurb-content">
                       <h4>PHONE NUMBER</h4>
-                      <p>+91 9633737722</p>
+                      <p><a href="tel:+919633737722">+91 9633737722</a></p>
                     </div>
                   </div>
                   <div className="blurb">
-                    <p>+91 9633157722</p>
+                    <p><a href="tel:+919633157722">+91 9633157722</a></p>
                   </div>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const contact = () => {
               <i>{<MdPhone />}</i>
               <div className="con-blurb-content">
                 <h4>PHONE NUMBER</h4>
-                <p>+91 9633737722</p>
+                <p><a href="tel:+919633737722">+91 9633737722</a></p>
               </div>
             </div>
             {/*map*/}
@@ -131,7 +131,7 @@ const contact = () => {
               <i>{<MdPhone />}</i>
               <div className="con-blurb-content">
                 <h4>PHONE NUMBER</h4>
-                <p>+91 9633157722</p>
+                <p><a href="tel:+919633157722">+91 9633157722</a></p>
               </div>
             </div>
             {/*map*/}
@@ -154,44 +154,6 @@ const contact = () => {
             </div>
           </div>
           {/*col1*/}
-          {/* <div className="branch-col">
-            <h5>Cochin</h5>
-            <div className="blurb">
-              <i>{<IoLocationOutline />}</i>
-              <div className="con-blurb-content">
-                <h4>ADDRESS</h4>
-                <p>
-                Cedar Interiors, Robinson Road, Emmar Plaza, Palakkad, 678001
-                </p>
-              </div>
-            </div>
-
-            <div className="blurb">
-              <i>{<MdPhone />}</i>
-              <div className="con-blurb-content">
-                <h4>PHONE NUMBER</h4>
-                <p>+91 940 098 9363</p>
-              </div>
-            </div>
-            
-            <div className="contact-map">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239039.504362306!2d75.98906908725321!3d9.982411598271108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e1!3m2!1sen!2sin!4v1733557379178!5m2!1sen!2sin"
-                width="350"
-                height="300"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-              <div className="btn">
-                <i>
-                  <IoMdLocate />
-                </i>
-                Locate in map
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

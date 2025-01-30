@@ -8,9 +8,9 @@ const Contactform = () => {
     <div className='quoteform'>
         <h3 style={{textAlign:"center"}}>CONTACT US</h3>
         <form action="">
-          <input type="text" placeholder='Name' className='inputfeild' />
+          <input type="text" placeholder='Name' className='inputfeild' required/>
           <input type="email" placeholder='Email Address' className='inputfeild' />
-          <input type="number"placeholder='Phone Number' className='inputfeild' />
+          <input type="number"placeholder='Phone Number' className='inputfeild' required/>
           <textarea type="text" placeholder='Message/Inquiry' className='inputfeild'></textarea>
           <button className='submit'> Submit Inquiry <span>{<GoArrowRight/>}</span></button>
         </form>

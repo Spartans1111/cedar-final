@@ -214,7 +214,7 @@ export default function Diningroom() {
                 <div className="servblurb1">
                     <h3 className='smallhead'>Turning Ideas Into Reality</h3>
                     <p>Cedar Interiors redefines dining spaces with innovative designs and over two decades of expertise. We craft interiors that bring elegance and functionality to your dining area.</p>
-                    <button className='btn2'>Get a Quote <span><BiRightArrowAlt/></span></button>
+                    <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
                 </div>
             </div>
             <div className="serviceabitinnercol">

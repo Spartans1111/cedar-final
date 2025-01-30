@@ -51,7 +51,7 @@ function HeroSlider() {
         <div className="slider">
               <img src={banner1} alt="" />
               <div className="herocontent">
-                <p>Custom Interior Unites</p>
+                <p>Custom Interior Units</p>
                 <h4>Personalized interiors, your style, your space</h4>
              </div>
           </div>

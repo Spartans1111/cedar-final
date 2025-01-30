@@ -213,7 +213,7 @@ export default function Kidsroom() {
                 <div className="servblurb1">
                     <h3 className='smallhead'>Turning Ideas Into Reality</h3>
                     <p>Cedar Interiors turns kids’ spaces into nurturing environments with innovative designs and over two decades of expertise. We craft interiors that bring joy and practicality to your child’s world.</p>
-                    <button className='btn2'>Get a Quote <span><BiRightArrowAlt/></span></button>
+                    <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
                 </div>
             </div>
             <div className="serviceabitinnercol">

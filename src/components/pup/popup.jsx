@@ -13,9 +13,9 @@ const Popup = ({ showPopup, closePopup }) => {
           <h2 className='header2'>Get a Quotation</h2>
           <p>Please fill in your details to get a quotation.</p>
           <div className="popuprow">
-            <div className="pupupcol">
+            {/* <div className="pupupcol">
               <img src={popupimg} alt="popup" />
-            </div>
+            </div> */}
             <div className="pupupcol">
               <Quoteform/>
             </div>

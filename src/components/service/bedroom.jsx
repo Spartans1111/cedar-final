@@ -214,7 +214,7 @@ export default function Bedroom() {
                 <div className="servblurb1">
                     <h3 className='smallhead'>Turning Ideas Into Reality</h3>
                     <p>Cedar Interiors transforms ordinary bedrooms into extraordinary retreats with over two decades of expertise. We craft interiors that blend functionality and aesthetics to bring your dream space to life.</p>
-                    <button className='btn2'>Get a Quote <span><BiRightArrowAlt/></span></button>
+                    <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
                 </div>
             </div>
             <div className="serviceabitinnercol">

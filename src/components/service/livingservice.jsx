@@ -210,7 +210,7 @@ export default function Livingservice() {
                 <div className="servblurb1">
                     <h3 className='smallhead'>Crafting Functional Elegance</h3>
                     <p>At Cedar Interiors, we redefine living room spaces with timeless designs and unparalleled craftsmanship. With a legacy of delivering exceptional interiors, we bring your dream living room to life.</p>
-                    <button className='btn2'>Get a Quote <span><BiRightArrowAlt/></span></button>
+                    <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
                 </div>
             </div>
             <div className="serviceabitinnercol">

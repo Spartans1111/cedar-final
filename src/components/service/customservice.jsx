@@ -213,7 +213,7 @@
                     <div className="servblurb1">
                         <h3 className='smallhead'>Turning Ideas Into Reality</h3>
                         <p>With over two decades of expertise, Cedar Interiors redefines spaces with custom designs tailored to your needs. We blend innovation with craftsmanship to transform your ideas into functional realities.</p>
-                        <button className='btn2'>Get a Quote <span><BiRightArrowAlt/></span></button>
+                        <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
                     </div>
                 </div>
                 <div className="serviceabitinnercol">

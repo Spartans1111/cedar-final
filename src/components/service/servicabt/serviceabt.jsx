@@ -3,6 +3,7 @@ import { BiRightArrowAlt } from "react-icons/bi";
 import './serviceabt.css';
 import serviabt1 from '../../../images/service/serviceabt.png';
 
+
 const serviceabt = () => {
   return (
     <div className='serviceabt'>
@@ -28,7 +29,7 @@ const serviceabt = () => {
                 <h6 className="smallhead">with cedar interiors</h6>
                 <div className="row1">
                     <div className="row1col">
-                        <p>Elevate your spaces with Cedar Interiors L.L.C. Experience the fusion of
+                        <p>Elevate your spaces with Cedar Interiors. Experience the fusion of
 your aspirations with our expertise, creating interiors  that speak volumes.
 Your space, our dedication a partnership that transforms imagination reality.</p>
                     </div>

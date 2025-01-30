@@ -168,28 +168,28 @@ export default function Homeinterior() {
         <h5 className="smallhead">Living Room Interiors</h5>
         <img src={hsimg1} alt="homedesign" />
         <p>Transform your living room into the heart of your home with custom-crafted solutions. Whether it’s sleek TV units, practical coffee tables, or artistic partitions, our designs blend functionality and aesthetics to create a space you’ll love.</p>
-        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <Link to="/living-room-interiors"><button className='btn1'>Learn More<span><BiRightArrowAlt/></span></button></Link>
     </div>
     {/*card2*/}
     <div className="homesercardcol">
       <h5 className="smallhead">Modular Kitchen Designs</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Upgrade your cooking space with state-of-the-art modular kitchens. From space-efficient L-shaped and straight kitchens to spacious U-shaped and island designs, we offer layouts that seamlessly blend modernity and convenience. Crafted to enhance your cooking experience and add elegance to your home.</p>
-        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <Link to="/modular-kitchens"><button className='btn1'>Learn More<span><BiRightArrowAlt/></span></button></Link>
     </div>
        {/*card32*/}
        <div className="homesercardcol">
         <h5 className="smallhead">Bedroom Interiors</h5>
         <img src={hsimg2} alt="homedesign" />
         <p>Create a personal sanctuary with customized bedroom interiors. Our solutions include stylish wardrobes, cozy beds, and functional dressing units that combine storage, comfort, and elegance. Experience interiors that bring harmony and rejuvenation to your private space.</p>
-        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <Link to="/bedroom-interiors"><button className='btn1'>Learn More<span><BiRightArrowAlt/></span></button></Link>
     </div>
       {/*card32*/}
       <div className="homesercardcol">
         <h5 className="smallhead">Dining Room Interiors</h5>
         <img src={hsimg3} alt="homedesign" />
         <p>Reimagine your dining space with thoughtfully designed furniture and layouts. From luxurious dining table sets to smart storage units and room partitions, our designs cater to both family gatherings and formal dinners. A blend of sophistication and practicality for your dining area.</p>
-        <button className='btn1' onClick={openPopup}>Get a Quote<span><BiRightArrowAlt/></span></button>
+        <Link to="/dining-room-interiors"><button className='btn1'>Learn More<span><BiRightArrowAlt/></span></button></Link>
     </div>
 
   </div>
@@ -210,7 +210,7 @@ export default function Homeinterior() {
                 <div className="servblurb1">
                     <h3 className='smallhead'>Turning Ideas Into Reality</h3>
                     <p>Cedar Interiors transforms ordinary spaces into extraordinary experiences with over two decades of expertise. We craft interiors that blend functionality and aesthetics to bring your dream space to life.</p>
-                    <button className='btn2'>Get a Quote <span><BiRightArrowAlt/></span></button>
+                    <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
                 </div>
             </div>
             <div className="serviceabitinnercol">

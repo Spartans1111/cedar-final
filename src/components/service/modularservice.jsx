@@ -213,7 +213,7 @@ export default function Modularservice() {
                 <div className="servblurb1">
                     <h3 className='smallhead'>Turning Ideas Into Reality</h3>
                     <p>Cedar Interiors transforms ordinary kitchens into extraordinary spaces with over two decades of expertise. We craft modular solutions that seamlessly blend style and practicality.</p>
-                    <button className='btn2'>Get a Quote <span><BiRightArrowAlt/></span></button>
+                    <button className='btn2' onClick={openPopup}>Get a Quote <span><BiRightArrowAlt/></span></button>
                 </div>
             </div>
             <div className="serviceabitinnercol">

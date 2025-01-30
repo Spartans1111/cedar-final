@@ -102,17 +102,17 @@ const Header = () => {
           </Link>
           {/* Dropdown toggle for mobile */}
           <div className={`dropdown-content ${dropdownOpen ? "show" : ""}`}>
-            <div className={isActive("/interior-designers-cochin") ? "active" : ""}>
-              <Link to="/interior-designers-cochin" onClick={closeMenu}>
-                {" "}
-                COCHIN{" "}
-              </Link>
-            </div>
             <div className={isActive("/interior-designers-palakkad") ? "active" : ""}>
               <Link to='/interior-designers-palakkad' onClick={closeMenu}>PALAKKAD</Link>
             </div>
             <div className={isActive("/interior-designers-coimbatore") ? "active" : ""}>
               <Link to='/interior-designers-coimbatore' onClick={closeMenu}>COIMBATORE</Link>
+            </div>
+            <div className={isActive("/interior-designers-cochin") ? "active" : ""}>
+              <Link to="/interior-designers-cochin" onClick={closeMenu}>
+                {" "}
+                COCHIN{" "}
+              </Link>
             </div>
             <div className={isActive("/interior-designers-tiruvalla") ? "active" : ""}>
               <Link to='/interior-designers-tiruvalla' onClick={closeMenu}>TIRUVALLA</Link>
