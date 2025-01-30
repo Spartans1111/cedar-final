@@ -154,7 +154,7 @@ const contact = () => {
             </div>
           </div>
           {/*col1*/}
-          <div className="branch-col">
+          {/* <div className="branch-col">
             <h5>Cochin</h5>
             <div className="blurb">
               <i>{<IoLocationOutline />}</i>
@@ -191,7 +191,7 @@ const contact = () => {
                 Locate in map
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
