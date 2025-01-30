@@ -50,11 +50,11 @@ const contact = () => {
                     <i>{<MdPhone />}</i>
                     <div className="con-blurb-content">
                       <h4>PHONE NUMBER</h4>
-                      <p>+91 7907330407</p>
+                      <p>+91 9633737722</p>
                     </div>
                   </div>
                   <div className="blurb">
-                    <p>+91 7012576803</p>
+                    <p>+91 9633157722</p>
                   </div>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const contact = () => {
               <i>{<MdPhone />}</i>
               <div className="con-blurb-content">
                 <h4>PHONE NUMBER</h4>
-                <p>+91 940 098 9363</p>
+                <p>+91 9633737722</p>
               </div>
             </div>
             {/*map*/}
@@ -131,7 +131,7 @@ const contact = () => {
               <i>{<MdPhone />}</i>
               <div className="con-blurb-content">
                 <h4>PHONE NUMBER</h4>
-                <p>+91 940 098 9363</p>
+                <p>+91 9633157722</p>
               </div>
             </div>
             {/*map*/}

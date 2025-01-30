@@ -139,11 +139,11 @@ const Header = () => {
         {open && (
           <div className="navbtn-container-mobile">
             <button className="navbtn navbtn-phone">
-              <a href="tel:+919400989363">
+              <a href="tel:+919633737722">
                 <span>
                   <MdPhone />
                 </span>
-                +91 940 098 9363
+                +91 9633737722
               </a>
             </button>
           </div>
@@ -153,11 +153,11 @@ const Header = () => {
       {/* Phone Button for Desktop */}
       <div className="navbtn-container">
         <button className="navbtn navbtn-phone">
-          <a href="tel:+919400989363">
+          <a href="tel:+919633737722">
             <span>
               <MdPhone />
             </span>
-            +91 940 098 9363
+            +91 9633737722
           </a>
         </button>
       </div>

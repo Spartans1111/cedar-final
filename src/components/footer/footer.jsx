@@ -64,8 +64,10 @@ const Footer = () => {
           </div>
           <div className="blurb">
             <i>{<MdPhone />}</i>
-            <p>+91 7907330407</p>
+            <p>+91 9633737722 | +91 9633157722
+            </p>
           </div>
+          
           <div className="blurb">
             <i>{<TiMessage />}</i>
             <p>contact@cedarinteriors.in</p>
