@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.3b1e47d9.css",
-    "main.js": "./static/js/main.187f4b95.js",
+    "main.css": "./static/css/main.9221b688.css",
+    "main.js": "./static/js/main.f61c986e.js",
     "static/js/453.b06144fb.chunk.js": "./static/js/453.b06144fb.chunk.js",
     "static/media/aboutimg4.png": "./static/media/aboutimg4.b1340d876e9dc5e47a30.png",
     "static/media/herobanner3.png": "./static/media/herobanner3.b1340d876e9dc5e47a30.png",
@@ -15,7 +15,6 @@
     "static/media/success.png": "./static/media/success.0c35b0b60249f0b007c6.png",
     "static/media/aboutimg3.png": "./static/media/aboutimg3.d19adb5569685e124e86.png",
     "static/media/img4.png": "./static/media/img4.d19adb5569685e124e86.png",
-    "static/media/img1.png": "./static/media/img1.e3a5a78473231ac30303.png",
     "static/media/keralabg1.png": "./static/media/keralabg1.a74e4289afc2afd797ad.png",
     "static/media/serviceabt.png": "./static/media/serviceabt.d458599ad8fd07549d48.png",
     "static/media/conatactbanner.png": "./static/media/conatactbanner.f70dccf126bf89f6c4bc.png",
@@ -24,7 +23,7 @@
     "static/media/bestseller.png": "./static/media/bestseller.ccdff04d41170d8baacb.png",
     "static/media/interior2.png": "./static/media/interior2.4c5813b34187c832159d.png",
     "static/media/img2.png": "./static/media/img2.5b4e38cef490d8ca60b1.png",
-    "static/media/cantactimg.png": "./static/media/cantactimg.f4813b8f90f4c00b57df.png",
+    "static/media/ContactUs.jpeg": "./static/media/ContactUs.3f71afc37b96b83c8c67.jpeg",
     "static/media/work4.png": "./static/media/work4.3045161a97b10fa04bae.png",
     "static/media/design3.png": "./static/media/design3.2c41f61c0c13ce3257af.png",
     "static/media/popup.png": "./static/media/popup.f2cf9eec0e9f4a5e3561.png",
@@ -70,12 +69,12 @@
     "static/media/male.png": "./static/media/male.a6143582309785dca610.png",
     "static/media/female.png": "./static/media/female.5a80e44a78da23d00a67.png",
     "index.html": "./index.html",
-    "main.3b1e47d9.css.map": "./static/css/main.3b1e47d9.css.map",
-    "main.187f4b95.js.map": "./static/js/main.187f4b95.js.map",
+    "main.9221b688.css.map": "./static/css/main.9221b688.css.map",
+    "main.f61c986e.js.map": "./static/js/main.f61c986e.js.map",
     "453.b06144fb.chunk.js.map": "./static/js/453.b06144fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b1e47d9.css",
-    "static/js/main.187f4b95.js"
+    "static/css/main.9221b688.css",
+    "static/js/main.f61c986e.js"
   ]
 }
